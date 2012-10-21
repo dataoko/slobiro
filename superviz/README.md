@@ -25,14 +25,25 @@ Or all in one command (get only top 10 firms):
 
 Example of output:
   
-    17.392.026,82	     /organ/75833/podj/68297530/    RBANKA d.d.	Drugo denarno posredništvo	FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
-    15.376.137,96	     /organ/75833/podj/98491881/    KOMUNALA Nova d.d. Zbiranje in odvoz nenevarnih odpadkov	   OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA
-    14.331.010,05	     /organ/75833/podj/95666222/    PREKMORJE d.d. - v stečaju Gradnja cest	GRADBENIŠTVO
-    13.726.010,41	     /organ/75833/podj/98026305/    BANKA TRST d.d.  Drugo denarno posredništvo	FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
-    13.350.549,64	     /organ/75833/podj/94314527/    NOVA NBM d.d.     Drugo denarno posredništvo	FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
-    12.355.099,16	     /organ/75833/podj/91503027/    VODOVODI IN KANALIZACIJA NOVA LJUBLJAN d.d.		Zbiranje, prečiščevanje in distribucija vode OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA
-    11.208.577,77	     /organ/75833/podj/39716651/    RPG, d.d.	Gradnja cest GRADBENIŠTVO
-    6.688.331,72	     /organ/75833/podj/52398790/    ARWIGO, d.o.o.	Medkrajevni in drug cestni potniški promet	PROMET IN SKLADIŠČENJE
-    5.393.787,71	     /organ/75833/podj/77494962/    HAPY LEASING d.o.o.	Dejavnost finančnega zakupa	    FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
-    5.293.943,02	     /organ/75833/podj/40502368/    KBBS d.d.	 Drugo denarno posredništvo  FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+    17392026	     /organ/75833/podj/68297530/    RBANKA d.d.	Drugo denarno posredništvo	FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+    15376137	     /organ/75833/podj/98491881/    KOMUNALA Nova d.d. Zbiranje in odvoz nenevarnih odpadkov	   OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA
+    14331010	     /organ/75833/podj/95666222/    PREKMORJE d.d. - v stečaju Gradnja cest	GRADBENIŠTVO
+    13726010	     /organ/75833/podj/98026305/    BANKA TRST d.d.  Drugo denarno posredništvo	FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+    13350549	     /organ/75833/podj/94314527/    NOVA NBM d.d.     Drugo denarno posredništvo	FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+    12355099	     /organ/75833/podj/91503027/    VODOVODI IN KANALIZACIJA NOVA LJUBLJAN d.d.		Zbiranje, prečiščevanje in distribucija vode OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA
+    11208577	     /organ/75833/podj/39716651/    RPG, d.d.	Gradnja cest GRADBENIŠTVO
+    6688331	     /organ/75833/podj/52398790/    ARWIGO, d.o.o.	Medkrajevni in drug cestni potniški promet	PROMET IN SKLADIŠČENJE
+    5393787	     /organ/75833/podj/77494962/    HAPY LEASING d.o.o.	Dejavnost finančnega zakupa	    FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+    5293943	     /organ/75833/podj/40502368/    KBBS d.d.	 Drugo denarno posredništvo  FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+
+
+Finally, get just the amounts and main groups for statistics:
+
+    $ ./get-raw-org-page 75833 | ./parse-firms-x | head -n 3 | ./get-firm-groups
+
+Ouptut:
+
+    17392026		     FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
+    15376137		     OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA
+    14331010		     GRADBENIŠTVO
 
