@@ -23,4 +23,4 @@ Get the top most name based on a subgroup name
 Todo:
 -----
 
-* Programatically get the CSV file. The websites seems to use POST with some session data so I wasn't able to at this poitn.
+* Programatically get the CSV file. The websites (very stupidly!) seems to use POST with some session data so I wasn't able to at this point.
