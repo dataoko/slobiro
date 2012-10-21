@@ -39,7 +39,7 @@ Example of output:
 
 Finally, get just the amounts and main groups for statistics:
 
-    $ ./get-raw-org-page 75833 | ./parse-firms-x | head -n 3 | ./get-firm-groups
+    $ ./get-raw-org-page 75833 | ./parse-firms-x | head -n 3 | ./get-firm-groups | cut -f1,5
 
 Ouptut:
 
