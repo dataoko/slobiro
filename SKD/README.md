@@ -6,17 +6,17 @@ Examples:
 
 get the topmost parent code of the group name:
 
-	~/Work/slobiro/SKD$ cat SKD.csv | ./parse | ./find "Pogrebna dejavnost" | ./getgroup
+	$ cat SKD.csv | ./parse | ./find "Pogrebna dejavnost" | ./getgroup
 	S
 
 Get the name based on the code
 
-	~/Work/slobiro/SKD$ cat SKD.csv | ./parse | ./getname S
+	$ cat SKD.csv | ./parse | ./getname S
 	DRUGE DEJAVNOSTI
 
 Get the top most name based on a subgroup name
 
-	./getgroupname "Gradnja cest"
+	$ ./getgroupname "Gradnja cest"
 	GRADBENIŠTVO
 
 
