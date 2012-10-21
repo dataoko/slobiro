@@ -1,0 +1,14 @@
+#!/bin/bash
+
+awk -F"\t" 'BEGIN {OFS="\t"} 
+{  
+("./get-firm-theme \"" $2 "\"") |& getline $4; 
+if (CACHE[$4]) {
+  $5 = CACHE[$4];
+} else {
+  ("./SKD-getgroupname \"" $4 "\"") |& getline $5;
+  CACHE[$4] = $5;
+}
+print $1, $2, $3, $4, $5 ; 
+system("sleep 0.6") ; 
+}'

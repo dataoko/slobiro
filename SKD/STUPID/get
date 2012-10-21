@@ -1,0 +1,9 @@
+#!/bin/bash
+
+### VERY VERY DUMB BUT WORKS, THE CSV FILE DOESN'T APEAR SIMPLE TO GET
+
+curl --data "" http://www.stat.si/klasje/tabela.aspx?cvn=5531 | w3m -cols 450 -dump -T text/html -I %windows-1250
+
+# to convert otherwise: iconv -f utf-8 -t windows-1250
+
+# MEH STUPID IDEA, TABLE ROWS ARE IN MULTIPLE LINES, HERE JUST FOR REFERENCE

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+### VERY VERY DUMB BUT WORKS, THE CSV FILE DOESN'T APEAR SIMPLE TO GET
+
+grep '││ [0-9]' | sed 's/\(.*││ [0-9]\)//' | tr "│" "\t" | cut -f4,7
+
+# MEH STUPID IDEA, TABLE ROWS ARE IN MULTIPLE LINES, HERE JUST FOR REFERENCE

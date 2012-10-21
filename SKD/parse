@@ -1,0 +1,3 @@
+#!/bin/bash
+
+iconv -t UTF-8 -f windows-1250 | sed 's/; \?/\t/g' | cut -f 2,3

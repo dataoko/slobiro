@@ -1,0 +1,11 @@
+#!/bin/bash
+
+AA=$1
+
+BB=`cat SKD.csv | ./parse | ./find "$AA" | ./getgroup`
+
+#echo "--" $BB "--"
+
+if [ ! -z "${BB}" ]; then
+    cat ./SKD.csv | ./parse | ./getname $BB
+fi
