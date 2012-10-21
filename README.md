@@ -8,8 +8,8 @@ Look at the readme-s in subforlders for specific info.
 Areas
 =====
 
-SKD - "Standardna klasifikacija dejavnosti".
-superviz - tools for working with awesome Supervizor.
+* SKD - "Standardna klasifikacija dejavnosti".
+* superviz - tools for working with awesome Supervizor.
 
 Plans
 =====
