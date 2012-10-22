@@ -41,7 +41,7 @@ Finally, get just the amounts and main groups for statistics:
 
     $ ./get-raw-org-page 75833 | ./parse-firms-x | head -n 3 | ./get-firm-groups | cut -f1,5
 
-Ouptut:
+Ouput:
 
     17392026		     FINANČNE IN ZAVAROVALNIŠKE DEJAVNOSTI
     15376137		     OSKRBA Z VODO, RAVNANJE Z ODPLAKAMI IN ODPADKI, SANIRANJE OKOLJA
