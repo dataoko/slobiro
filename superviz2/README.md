@@ -43,7 +43,7 @@ Parse organisation data by SKD-s:
 
 Find page os specific org, load it, parse SKD (groups), translate them to root groups, sum groups together and sort by amount descending.
 
-     ./get-org-url "OBČINA POSTOJNA" | xargs ./load-page | ./parse-skds | ./to-root-groups | ./sum-amonts-by-groups | sort -nr
+     ./get-org-url "OBČINA POSTOJNA" | xargs ./load-page | ./parse-skds | ./to-root-groups | ./sum-amonts-by-groups | tee temp1 | sort -nr
 
 Output:
 
@@ -68,6 +68,10 @@ Output:
 	137443	      KMETIJSTVO IN LOV, GOZDARSTVO, RIBIŠTVO
 	17941	      RUDARSTVO
 
+Sum them also:
+
+	$ cat temp1 | ./sum-all-amounts
+	101053856
 
 Parse organisation's providers:
 ------------------------------
