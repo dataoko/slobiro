@@ -23,7 +23,7 @@ Raw:
 	 }
 	]
 
-From Raw to main:
+From raw to main:
 
      	 $ ./search-orgs-raw "srednja šola" | ./parse-search-res | head -n3
 	 69370					      DVOJEZIČNA SREDNJA ŠOLA LENDAVA KETNYELVU KOZEPISKOLA LENDVA
@@ -87,7 +87,7 @@ Get organisation's url, load it, parse firms out of it, get groups of firms (w/ 
 	6391536		/organ/75949/podj/28928695/	      VATMEL d.o.o.    Druge telekomunikacijske dejavnosti	INFORMACIJSKE IN KOMUNIKACIJSKE DEJAVNOSTI
 
 
-Get sums of all first 50 and of "construction" companies.
+Get sums of all first 50 and of construction companies.
 
 	echo GRD: `./get-org-url "OBČINA POSTOJNA" | xargs ./load-page | ./parse-firms | ./get-firm-groups | ./get-firm-root-groups | tee temp1 | grep "GRADBENIŠTVO" | ./sum-all-amounts` ; cat temp1 | echo "VSI: " `./sum-all-amounts`
 	GRD: 16773808
