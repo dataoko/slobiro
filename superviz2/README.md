@@ -87,7 +87,7 @@ Get organisation's url, load it, parse firms out of it, get groups of firms (w/ 
 	6391536		/organ/75949/podj/28928695/	      VATMEL d.o.o.    Druge telekomunikacijske dejavnosti	INFORMACIJSKE IN KOMUNIKACIJSKE DEJAVNOSTI
 
 
-Get amount sums of first 5 and of construction companies amongst them (in reality it would make sense (will take some time, has to make separate 50 requests (uses some delay)).
+Get amount sums of first 50 companies working with organisation ; and of construction companies amongst them (will take some time, has to make separate 50 requests (uses some delay)).
 
 	$ ./get-org-url "OBČINA POSTOJNA" | xargs ./load-page | ./parse-firms | ./get-firm-groups | ./get-firm-root-groups | tee temp1 | grep "GRADBENIŠTVO" | echo GRD: `./sum-all-amounts` ; cat temp1 | echo "VSI: " `./sum-all-amounts`
 	GRD: 19865083
