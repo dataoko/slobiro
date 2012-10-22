@@ -1,0 +1,4 @@
+#!/bin/bash
+
+curl -s -d"organ=$1" -D- http://sunshine.owca.info/ | grep Location: | cut -f2 -d" " | tr -d "\r"
+

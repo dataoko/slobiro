@@ -1,0 +1,2054 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>OBČINA POSTOJNA</title>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" /> <!-- to prevent mobile safari making phone links from numbers -->
+
+<link rel="shortcut icon" href="/static/img/favicon.ico" />
+
+<script>
+// For discussion and comments, see: http://remysharp.com/2009/01/07/html5-enabling-script/
+(function(){if(!/*@cc_on!@*/0)return;var e = "abbr,article,aside,audio,bb,canvas,datagrid,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(',');for(var i=0;i<e.length;i++){document.createElement(e[i])}})()
+</script>
+<!-- CSS -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="/static/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/static/smallscreen.css" media="only screen and (max-width: 480px)" />
+<link rel="stylesheet" href="/static/narrow.css" media="only screen and (min-width:481px) and (max-width: 960px)" />
+<link rel="stylesheet" href="/static/wide.css" media="only screen and (min-width:70em)" />
+<!--[if !IE]><!-->
+<link rel="stylesheet" type="text/css" href="/static/tables.css" media="screen" />
+<!--<![endif]-->
+<style type="text/css">
+
+
+</style>
+<!-- Javascript -->
+
+<link type="text/css" href="/static/jquery-ui/css/smoothness/jquery-ui-1.8.14.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="/static/jquery.js"></script>
+<script type="text/javascript" src="/static/jquery-ui/js/jquery-ui-1.8.14.js"></script>
+<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="/static/flot/excanvas.min.js"></script><![endif]-->
+<script type="text/javascript" src="/static/flot/jquery.flot.js"></script>
+<script type="text/javascript" src="/static/flot/jquery.flot.crosshair.min.js"></script>
+<script type="text/javascript" src="/static/flot/jquery.flot.selection.js"></script>
+<script type="text/javascript" src="/static/flot/jquery.flot.pie.min.js"></script>
+<script type="text/javascript" src="/static/flot/jquery.flot.stack.min.js"></script>
+<script type="text/javascript" src="/static/history.js"></script>
+<script type="text/javascript" src="/static/all.js"></script>
+
+
+<script type="text/javascript">var NUM_SLICES = 12;</script>
+
+
+</head>
+<body>
+	<section class="envelope">
+		<header>
+			<nav>
+				<div class="rs"><a title="Republika Slovenija" href="http://www.gov.si/"><img src="/static/img/republika-slovenija.gif" alt="Republika Slovenija"/></a></div>
+				<ul>
+					<li><a title="Komisija za preprečevanje korupcije" href="http://www.kpk-rs.si/">Nazaj na KPK</a></li>
+					<li><a title="Projekt Transparentnost" href="http://www.kpk-rs.si/sl/projekt-transparentnost">Projekt Transparentnost</a></li>
+					<li><a title="Ocena stanja korupcije v RS" href="https://www.kpk-rs.si/sl/korupcija-integriteta-in-etika/analize-raziskave-in-statistika/ocena-stanja-korupcije">Ocena stanja korupcije v RS</a></li>
+				</ul>
+			</nav>
+			<hgroup>
+				<h1><a href="/">SUPERVIZOR</a> <span>Spletna aplikacija za spremljanje izdatkov javnih institucij</span></h1>
+				<h2><a href="http://www.kpk-rs.si" title="Izdatki slovenskih javnih institucij"><img src="/static/img/logo.gif" alt="" /></a></h2>
+			</hgroup>
+		</header>
+
+		<section class="search-form">
+		<h1>Iskalnik<sup>*</sup></h1>
+		<p><a href="/oprojektu/">Dodatne informacije o uporabi iskalnika, vsebini podatkov
+		in samem projektu.</a></p>
+		<form action="/" method="POST" autocomplete="off">
+			<p>
+			Izpiši transakcije javnih organov s poslovnimi subjekti. Izpolnite vsaj eno polje.
+			</p>
+			<ul>
+				<li><label for="id_organ">Organ (PU):</label> <input type="search" name="organ" value="OBČINA POSTOJNA" id="id_organ" /></li>
+<li><label for="id_prejemnik">Prejemnik:</label> <input type="search" name="prejemnik" id="id_prejemnik" /><input type="hidden" name="organ_id" value="75949" id="id_organ_id" /><input type="hidden" name="prejemnik_id" id="id_prejemnik_id" /></li>
+				<li class="note">* Za izpis transakcij ni potrebno izpolniti obeh polj.</li>
+				<li class="submit"><button type="submit">Poišči transakcije</button></li>
+			</ul>
+		</form>
+		
+	</section>
+
+
+	<section class="company-info">
+		<h1>OBČINA POSTOJNA</h1>
+		<p class="wide">
+			<a href="/organ/75949/odvisne">Odvisni poslovni subjekti</a>
+		</p>
+	</section>
+
+	<script type="text/javascript">
+	var dataset_raw = [[262137.45999999999, 1, 2003], [148013.57000000001, 2, 2003], [185152.98000000001, 3, 2003], [280574.67999999999, 4, 2003], [245145.29000000001, 5, 2003], [370102.33000000002, 6, 2003], [304994.09000000003, 7, 2003], [473828.84999999998, 8, 2003], [394687.71000000002, 9, 2003], [244387.22, 10, 2003], [227277.19, 11, 2003], [703598.18000000005, 12, 2003], [417649.60999999999, 1, 2004], [217962.79999999999, 2, 2004], [235108.44, 3, 2004], [195282.14999999999, 4, 2004], [388783.60999999999, 5, 2004], [139936.76000000001, 6, 2004], [262389.73999999999, 7, 2004], [327831.34000000003, 8, 2004], [266877.52000000002, 9, 2004], [313961.87, 10, 2004], [401917.46000000002, 11, 2004], [1445985.8899999999, 12, 2004], [261235.54999999999, 1, 2005], [538482.62, 2, 2005], [311168.96999999997, 3, 2005], [274371.03000000003, 4, 2005], [363870.57000000001, 5, 2005], [291220.92999999999, 6, 2005], [358421.01000000001, 7, 2005], [374101.59000000003, 8, 2005], [570189.85999999999, 9, 2005], [421576.87, 10, 2005], [524966.93000000005, 11, 2005], [822966.71999999997, 12, 2005], [1001595.87, 1, 2006], [298937.21000000002, 2, 2006], [657781.65000000002, 3, 2006], [445081.84999999998, 4, 2006], [524097.65000000002, 5, 2006], [412984.44, 6, 2006], [633003.5, 7, 2006], [397426.03000000003, 8, 2006], [946985.96999999997, 9, 2006], [883362.73999999999, 10, 2006], [593753.95999999996, 11, 2006], [1422345.8, 12, 2006], [975987.84999999998, 1, 2007], [357959.34999999998, 2, 2007], [478971.64000000001, 3, 2007], [640047.48999999999, 4, 2007], [3113282.52, 5, 2007], [551909.90000000002, 6, 2007], [972935.93000000005, 7, 2007], [641302.42000000004, 8, 2007], [1144047.27, 9, 2007], [577697.47999999998, 10, 2007], [730052.68999999994, 11, 2007], [1232109.9199999999, 12, 2007], [1267646.95, 1, 2008], [601277.60999999999, 2, 2008], [947679.17000000004, 3, 2008], [548978.71999999997, 4, 2008], [719209.53000000003, 5, 2008], [674159.31999999995, 6, 2008], [1044280.26, 7, 2008], [1273654.9299999999, 8, 2008], [1242917.3999999999, 9, 2008], [972893.59999999998, 10, 2008], [1416480.8799999999, 11, 2008], [2378280.6699999999, 12, 2008], [1554375.8899999999, 1, 2009], [568297.54000000004, 2, 2009], [1047010.23, 3, 2009], [801672.06000000006, 4, 2009], [558614.17000000004, 5, 2009], [585300.94999999995, 6, 2009], [1355972.5700000001, 7, 2009], [847862.40000000002, 8, 2009], [1220362.79, 9, 2009], [1119408.9299999999, 10, 2009], [2642289.4100000001, 11, 2009], [2327036.9900000002, 12, 2009], [805701.26000000001, 1, 2010], [966118.02000000002, 2, 2010], [615184.89000000001, 3, 2010], [1100649.74, 4, 2010], [1147930.52, 5, 2010], [3906898.7599999998, 6, 2010], [2507715.1299999999, 7, 2010], [1187262.76, 8, 2010], [1271745.03, 9, 2010], [1281249.1699999999, 10, 2010], [1715233.25, 11, 2010], [2394596.3700000001, 12, 2010], [888556.43000000005, 1, 2011], [755107.30000000005, 2, 2011], [972094.98999999999, 3, 2011], [811323.68000000005, 4, 2011], [727411.51000000001, 5, 2011], [891120.60999999999, 6, 2011], [855460.18000000005, 7, 2011], [1512938.8400000001, 8, 2011], [2255533.1499999999, 9, 2011], [861602.46999999997, 10, 2011], [1370401.1599999999, 11, 2011], [900360.35999999999, 12, 2011], [856721.48999999999, 1, 2012], [841556.97999999998, 2, 2012], [924668.89000000001, 3, 2012], [1148071.4399999999, 4, 2012], [1025844.84, 5, 2012], [721292.54000000004, 6, 2012], [651973.47999999998, 7, 2012], [597871.38, 8, 2012], [1668333.0, 9, 2012]];
+	var events_raw = [["2008-07-06", "Gradbena dela, dela na temeljenju in dela na zgornjem ustroju daljinskih cest in cest", "", "green"], ["2008-08-26", "Gradbena dela na cevovodih za vodo in odplake", "", "green"], ["2008-08-27", "Gradbena dela, dela na temeljenju in dela na zgornjem ustroju daljinskih cest in cest", "", "green"], ["2008-08-29", "Gradbena dela na stavbah, povezanih z\u00a0zdravstvom in socialnim varstvom, na krematorijih in javnih strani\u0161cih", "", "green"], ["2008-09-16", "Gradbena dela, dela na temeljenju in dela na zgornjem ustroju daljinskih cest in cest", "", "green"], ["2008-12-22", "Gradbena dela, dela na temeljenju in dela na zgornjem ustroju daljinskih cest in cest", "", "green"], ["2009-01-27", "Distribucija elektricne energije in s\u00a0tem povezane storitve", "", "green"], ["2009-01-30", "Storitve omre\u017enega povezovanja", "", "green"], ["2009-03-03", "Storitve poslovanja s\u00a0stanovanjskimi nepremicninami", "", "green"], ["2009-04-06", "Notranja oprema", "", "green"], ["2009-04-11", "Storitve cestnega prevoza", "", "green"], ["2009-04-20", "Gradbena dela na vrtcih", "", "green"], ["2009-04-27", "Gradbeni kamen, apnenec, sadra in skrilavec", "", "green"], ["2009-05-05", "Gradbena dela, dela na temeljenju in dela na zgornjem ustroju daljinskih cest in cest", "", "green"], ["2009-05-20", "Storitve zbiranja odpadkov", "", "green"], ["2009-05-22", "Razlicna dela na zgornjem ustroju", "", "green"], ["2009-06-01", "Storitve cestnega prevoza", "", "green"], ["2009-06-12", "Krovska dela", "", "green"], ["2009-06-16", "Gradbena dela", "", "green"], ["2009-08-16", "Splo\u0161na gradbena dela na cevovodih", "", "green"], ["2009-08-25", "Gradbena dela", "", "green"], ["2009-10-05", "Arhitekturne, in\u017eenirske in projektantske storitve", "", "green"], ["2009-12-14", "Arhitekturne, in\u017eenirske in projektantske storitve", "", "green"], ["2010-02-21", "Gradbena dela na cevovodih, komunikacijskih in elektricnih vodih, na daljinskih cestah, cestah, letali\u0161cih in \u017eeleznicah; planiranje", "", "green"], ["2010-03-05", "Arhitekturne, in\u017eenirske in projektantske storitve", "", "green"], ["2010-03-26", "Gradbena dela na umetni\u0161kih in kulturnih stavbah", "", "green"], ["2010-06-11", "Gradbena dela na cevovodih, komunikacijskih in elektricnih vodih, na daljinskih cestah, cestah, letali\u0161cih in \u017eeleznicah; planiranje", "", "green"], ["2010-07-04", "Gradbena dela na vrtcih", "", "green"], ["2010-07-10", "Gradbena dela na cevovodih, komunikacijskih in elektricnih vodih, na daljinskih cestah, cestah, letali\u0161cih in \u017eeleznicah; planiranje", "", "green"], ["2010-07-26", "Razno pohi\u0161tvo in oprema", "", "green"], ["2010-08-13", "Gradbena dela na cevovodih, komunikacijskih in elektricnih vodih, na daljinskih cestah, cestah, letali\u0161cih in \u017eeleznicah; planiranje", "", "green"], ["2010-08-30", "Gradbena dela na cevovodih, komunikacijskih in elektricnih vodih, na daljinskih cestah, cestah, letali\u0161cih in \u017eeleznicah; planiranje", "", "green"], ["2010-09-13", "Arhitekturne, in\u017eenirske in projektantske storitve", "", "green"], ["2010-09-22", "Gradbena dela in druga dela na telefonskih in komunikacijskih vodih", "", "green"], ["2010-09-27", "Gradbena dela na cevovodih za vodo in odplake", "", "green"], ["2010-10-11", "Gradbena dela na stavbah, ki so namenjene prostemu casu, \u0161portu, kulturi, nastanitvi in prehrani", "", "green"], ["2011-04-01", "Gradbena dela na cevovodih, komunikacijskih in elektricnih vodih, na daljinskih cestah, cestah, letali\u0161cih in \u017eeleznicah; planiranje", "", "green"], ["2011-04-05", "Arhitekturne, in\u017eenirske in projektantske storitve", "", "green"], ["2011-04-26", "Gradbena dela na vrtcih", "", "green"], ["2011-06-14", "Storitve gradbenega nadzora", "", "green"], ["2010-09-08", "Gradbena dela na stanovanjskih hi\u0161ah", "", "green"]];
+	</script>
+	
+	<section id="skd" class="skd">
+		<table>
+			<thead>
+				<tr>
+					<th>Šifra</th>
+					<th>Dejavnost</th>
+					<th>Skupen znesek</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>64.190</td>
+					<td>Drugo denarno posredništvo</td>
+					<td class="znesek" data-amount="19071458.2279">19.071.458,23</td>
+				</tr>
+				<tr>
+					<td>42.110</td>
+					<td>Gradnja cest</td>
+					<td class="znesek" data-amount="16022485.8567">16.022.485,86</td>
+				</tr>
+				<tr>
+					<td>61.900</td>
+					<td>Druge telekomunikacijske dejavnosti</td>
+					<td class="znesek" data-amount="6410594.0879">6.410.594,09</td>
+				</tr>
+				<tr>
+					<td>71.129</td>
+					<td>Druge inženirske dejavnosti in tehnično svetovanje</td>
+					<td class="znesek" data-amount="6329827.9751">6.329.827,98</td>
+				</tr>
+				<tr>
+					<td>41.200</td>
+					<td>Gradnja stanovanjskih in nestanovanjskih stavb</td>
+					<td class="znesek" data-amount="5503000.6085">5.503.000,61</td>
+				</tr>
+				<tr>
+					<td>36.000</td>
+					<td>Zbiranje, prečiščevanje in distribucija vode</td>
+					<td class="znesek" data-amount="4773012.4810">4.773.012,48</td>
+				</tr>
+				<tr>
+					<td>81.290</td>
+					<td>Čiščenje cest in drugo čiščenje</td>
+					<td class="znesek" data-amount="4097649.8126">4.097.649,81</td>
+				</tr>
+				<tr>
+					<td>84.250</td>
+					<td>Zaščita in reševanje pri požarih in nesrečah</td>
+					<td class="znesek" data-amount="3194674.8143">3.194.674,81</td>
+				</tr>
+				<tr>
+					<td>49.391</td>
+					<td>Medkrajevni in drug cestni potniški promet</td>
+					<td class="znesek" data-amount="2957844.6779">2.957.844,68</td>
+				</tr>
+				<tr>
+					<td>71.112</td>
+					<td>Krajinsko arhitekturno, urbanistično in drugo projektiranje</td>
+					<td class="znesek" data-amount="1949848.5730">1.949.848,57</td>
+				</tr>
+				<tr>
+					<td>35.130</td>
+					<td>Distribucija električne energije</td>
+					<td class="znesek" data-amount="1917139.5912">1.917.139,59</td>
+				</tr>
+				<tr>
+					<td>93.190</td>
+					<td>Druge športne dejavnosti</td>
+					<td class="znesek" data-amount="1646611.9802">1.646.611,98</td>
+				</tr>
+				<tr>
+					<td>68.320</td>
+					<td>Upravljanje nepremičnin za plačilo ali po pogodbi</td>
+					<td class="znesek" data-amount="1458015.5042">1.458.015,50</td>
+				</tr>
+				<tr>
+					<td>64.990</td>
+					<td>Drugje nerazvrščene dejavnosti finančnih storitev, razen zavarovalništva in dejavnosti pokojninskih skladov</td>
+					<td class="znesek" data-amount="1395393.3117">1.395.393,31</td>
+				</tr>
+				<tr>
+					<td>94.999</td>
+					<td>Dejavnost drugje nerazvrščenih članskih organizacij</td>
+					<td class="znesek" data-amount="1381339.6397">1.381.339,64</td>
+				</tr>
+				<tr>
+					<td>42.210</td>
+					<td>Gradnja objektov oskrbne infrastrukture za tekočine in pline</td>
+					<td class="znesek" data-amount="1354990.9649">1.354.990,96</td>
+				</tr>
+				<tr>
+					<td>70.220</td>
+					<td>Drugo podjetniško in poslovno svetovanje</td>
+					<td class="znesek" data-amount="1298416.3029">1.298.416,30</td>
+				</tr>
+				<tr>
+					<td>42.220</td>
+					<td>Gradnja objektov oskrbne infrastrukture za elektriko in telekomunikacije</td>
+					<td class="znesek" data-amount="1177371.8680">1.177.371,87</td>
+				</tr>
+				<tr>
+					<td>55.100</td>
+					<td>Dejavnost hotelov in podobnih nastanitvenih obratov</td>
+					<td class="znesek" data-amount="1007408.6163">1.007.408,62</td>
+				</tr>
+				<tr>
+					<td>71.111</td>
+					<td>Arhitekturno projektiranje</td>
+					<td class="znesek" data-amount="910135.3212">910.135,32</td>
+				</tr>
+				<tr>
+					<td>64.910</td>
+					<td>Dejavnost finančnega zakupa</td>
+					<td class="znesek" data-amount="856819.2147">856.819,21</td>
+				</tr>
+				<tr>
+					<td>93.120</td>
+					<td>Dejavnost športnih klubov</td>
+					<td class="znesek" data-amount="782485.6604">782.485,66</td>
+				</tr>
+				<tr>
+					<td>81.300</td>
+					<td>Urejanje in vzdrževanje zelenih površin in okolice</td>
+					<td class="znesek" data-amount="774554.6700">774.554,67</td>
+				</tr>
+				<tr>
+					<td>43.290</td>
+					<td>Drugo inštaliranje pri gradnjah</td>
+					<td class="znesek" data-amount="570956.0315">570.956,03</td>
+				</tr>
+				<tr>
+					<td>71.121</td>
+					<td>Geofizikalne meritve, kartiranje</td>
+					<td class="znesek" data-amount="558982.0730">558.982,07</td>
+				</tr>
+				<tr>
+					<td>43.210</td>
+					<td>Inštaliranje električnih napeljav in naprav</td>
+					<td class="znesek" data-amount="552127.5807">552.127,58</td>
+				</tr>
+				<tr>
+					<td>18.130</td>
+					<td>Priprava za tisk in objavo</td>
+					<td class="znesek" data-amount="516719.2312">516.719,23</td>
+				</tr>
+				<tr>
+					<td>43.990</td>
+					<td>Druga specializirana gradbena dela</td>
+					<td class="znesek" data-amount="460762.4140">460.762,41</td>
+				</tr>
+				<tr>
+					<td>42.990</td>
+					<td>Gradnja drugih objektov nizke gradnje</td>
+					<td class="znesek" data-amount="433152.7140">433.152,71</td>
+				</tr>
+				<tr>
+					<td>25.110</td>
+					<td>Proizvodnja kovinskih konstrukcij in njihovih delov</td>
+					<td class="znesek" data-amount="431865.2904">431.865,29</td>
+				</tr>
+				<tr>
+					<td>49.410</td>
+					<td>Cestni tovorni promet</td>
+					<td class="znesek" data-amount="397374.5746">397.374,57</td>
+				</tr>
+				<tr>
+					<td>23.700</td>
+					<td>Obdelava naravnega kamna</td>
+					<td class="znesek" data-amount="396094.2807">396.094,28</td>
+				</tr>
+				<tr>
+					<td>47.789</td>
+					<td>Druga trgovina na drobno v drugih specializiranih prodajalnah</td>
+					<td class="znesek" data-amount="385040.0819">385.040,08</td>
+				</tr>
+				<tr>
+					<td>69.101</td>
+					<td>Odvetništvo</td>
+					<td class="znesek" data-amount="309465.7409">309.465,74</td>
+				</tr>
+				<tr>
+					<td>58.130</td>
+					<td>Izdajanje časopisov</td>
+					<td class="znesek" data-amount="299752.9352">299.752,94</td>
+				</tr>
+				<tr>
+					<td>16.210</td>
+					<td>Proizvodnja furnirja in plošč na osnovi lesa</td>
+					<td class="znesek" data-amount="295181.0880">295.181,09</td>
+				</tr>
+				<tr>
+					<td>61.100</td>
+					<td>Telekomunikacijske dejavnosti po vodih</td>
+					<td class="znesek" data-amount="283317.9151">283.317,92</td>
+				</tr>
+				<tr>
+					<td>62.010</td>
+					<td>Računalniško programiranje</td>
+					<td class="znesek" data-amount="266342.4050">266.342,41</td>
+				</tr>
+				<tr>
+					<td>87.300</td>
+					<td>Dejavnost nastanitvenih ustanov za oskrbo starejših in invalidnih oseb</td>
+					<td class="znesek" data-amount="238072.6570">238.072,66</td>
+				</tr>
+				<tr>
+					<td>43.390</td>
+					<td>Druga zaključna gradbena dela</td>
+					<td class="znesek" data-amount="237077.3784">237.077,38</td>
+				</tr>
+				<tr>
+					<td>38.110</td>
+					<td>Zbiranje in odvoz nenevarnih odpadkov</td>
+					<td class="znesek" data-amount="214629.1191">214.629,12</td>
+				</tr>
+				<tr>
+					<td>90.030</td>
+					<td>Umetniško ustvarjanje</td>
+					<td class="znesek" data-amount="214143.9832">214.143,98</td>
+				</tr>
+				<tr>
+					<td>82.910</td>
+					<td>Zbiranje terjatev in ocenjevanje kreditne sposobnosti</td>
+					<td class="znesek" data-amount="212144.0160">212.144,02</td>
+				</tr>
+				<tr>
+					<td>46.900</td>
+					<td>Nespecializirana trgovina na debelo</td>
+					<td class="znesek" data-amount="210806.0873">210.806,09</td>
+				</tr>
+				<tr>
+					<td>47.301</td>
+					<td>Trgovina na drobno z lastnimi motornimi gorivi</td>
+					<td class="znesek" data-amount="203408.6969">203.408,70</td>
+				</tr>
+				<tr>
+					<td>46.740</td>
+					<td>Trgovina na debelo s kovinskimi proizvodi, inštalacijskim materialom, napravami za ogrevanje</td>
+					<td class="znesek" data-amount="197890.5536">197.890,55</td>
+				</tr>
+				<tr>
+					<td>53.100</td>
+					<td>Izvajanje univerzalne poštne storitve</td>
+					<td class="znesek" data-amount="193791.5734">193.791,57</td>
+				</tr>
+				<tr>
+					<td>78.200</td>
+					<td>Posredovanje začasne delovne sile</td>
+					<td class="znesek" data-amount="189855.1281">189.855,13</td>
+				</tr>
+				<tr>
+					<td>33.120</td>
+					<td>Popravila strojev in naprav</td>
+					<td class="znesek" data-amount="177619.8569">177.619,86</td>
+				</tr>
+				<tr>
+					<td>66.190</td>
+					<td>Druge pomožne dejavnosti za finančne storitve, razen za zavarovalništvo in pokojninske sklade</td>
+					<td class="znesek" data-amount="175166.8500">175.166,85</td>
+				</tr>
+				<tr>
+					<td>88.991</td>
+					<td>Dejavnost humanitarnih in dobrodelnih organizacij</td>
+					<td class="znesek" data-amount="173120.8710">173.120,87</td>
+				</tr>
+				<tr>
+					<td>94.920</td>
+					<td>Dejavnost političnih organizacij</td>
+					<td class="znesek" data-amount="173067.4418">173.067,44</td>
+				</tr>
+				<tr>
+					<td>43.330</td>
+					<td>Oblaganje tal in sten</td>
+					<td class="znesek" data-amount="169224.5074">169.224,51</td>
+				</tr>
+				<tr>
+					<td>35.140</td>
+					<td>Trgovanje z električno energijo</td>
+					<td class="znesek" data-amount="167653.8800">167.653,88</td>
+				</tr>
+				<tr>
+					<td>94.910</td>
+					<td>Dejavnost verskih organizacij</td>
+					<td class="znesek" data-amount="161718.9469">161.718,95</td>
+				</tr>
+				<tr>
+					<td>32.300</td>
+					<td>Proizvodnja športne opreme</td>
+					<td class="znesek" data-amount="161316.9989">161.317,00</td>
+				</tr>
+				<tr>
+					<td>73.200</td>
+					<td>Raziskovanje trga in javnega mnenja</td>
+					<td class="znesek" data-amount="158849.0100">158.849,01</td>
+				</tr>
+				<tr>
+					<td>94.991</td>
+					<td>Dejavnost invalidskih organizacij</td>
+					<td class="znesek" data-amount="151200.8097">151.200,81</td>
+				</tr>
+				<tr>
+					<td>90.010</td>
+					<td>Umetniško uprizarjanje</td>
+					<td class="znesek" data-amount="149815.4311">149.815,43</td>
+				</tr>
+				<tr>
+					<td>94.120</td>
+					<td>Dejavnost strokovnih združenj</td>
+					<td class="znesek" data-amount="146584.2145">146.584,21</td>
+				</tr>
+				<tr>
+					<td>62.090</td>
+					<td>Druge z informacijsko tehnologijo in računalniškimi storitvami povezane dejavnosti</td>
+					<td class="znesek" data-amount="143825.2201">143.825,22</td>
+				</tr>
+				<tr>
+					<td>62.020</td>
+					<td>Svetovanje o računalniških napravah in programih</td>
+					<td class="znesek" data-amount="135111.4119">135.111,41</td>
+				</tr>
+				<tr>
+					<td>65.120</td>
+					<td>Dejavnost zavarovanja, razen življenjskega</td>
+					<td class="znesek" data-amount="126677.0028">126.677,00</td>
+				</tr>
+				<tr>
+					<td>85.510</td>
+					<td>Izobraževanje, izpopolnjevanje in usposabljanje na področju športa in rekreacije</td>
+					<td class="znesek" data-amount="112468.5967">112.468,60</td>
+				</tr>
+				<tr>
+					<td>46.190</td>
+					<td>Nespecializirano posredništvo pri prodaji raznovrstnih izdelkov</td>
+					<td class="znesek" data-amount="110265.8126">110.265,81</td>
+				</tr>
+				<tr>
+					<td>74.900</td>
+					<td>Drugje nerazvrščene strokovne in tehnične dejavnosti</td>
+					<td class="znesek" data-amount="108038.5144">108.038,51</td>
+				</tr>
+				<tr>
+					<td>51.210</td>
+					<td>Tovorni zračni promet</td>
+					<td class="znesek" data-amount="106102.0800">106.102,08</td>
+				</tr>
+				<tr>
+					<td>88.999</td>
+					<td>Drugo drugje nerazvrščeno socialno varstvo brez nastanitve</td>
+					<td class="znesek" data-amount="90734.2432">90.734,24</td>
+				</tr>
+				<tr>
+					<td>01.420</td>
+					<td>Druga govedoreja</td>
+					<td class="znesek" data-amount="88035.4403">88.035,44</td>
+				</tr>
+				<tr>
+					<td>27.120</td>
+					<td>Proizvodnja naprav za distribucijo in krmiljenje elektrike</td>
+					<td class="znesek" data-amount="86627.6661">86.627,67</td>
+				</tr>
+				<tr>
+					<td>46.630</td>
+					<td>Trgovina na debelo z rudarskimi in gradbenimi stroji</td>
+					<td class="znesek" data-amount="84207.4800">84.207,48</td>
+				</tr>
+				<tr>
+					<td>46.730</td>
+					<td>Trgovina na debelo z lesom, gradbenim materialom in sanitarno opremo</td>
+					<td class="znesek" data-amount="83554.5866">83.554,59</td>
+				</tr>
+				<tr>
+					<td>69.200</td>
+					<td>Računovodske, knjigovodske in revizijske dejavnosti; davčno svetovanje</td>
+					<td class="znesek" data-amount="83527.3631">83.527,36</td>
+				</tr>
+				<tr>
+					<td>25.720</td>
+					<td>Proizvodnja ključavnic, okovja</td>
+					<td class="znesek" data-amount="82798.8800">82.798,88</td>
+				</tr>
+				<tr>
+					<td>72.190</td>
+					<td>Raziskovalna in razvojna dejavnost na drugih področjih naravoslovja in tehnologije</td>
+					<td class="znesek" data-amount="82442.6275">82.442,63</td>
+				</tr>
+				<tr>
+					<td>68.310</td>
+					<td>Posredništvo v prometu z nepremičninami</td>
+					<td class="znesek" data-amount="75744.8521">75.744,85</td>
+				</tr>
+				<tr>
+					<td>43.220</td>
+					<td>Inštaliranje vodovodnih, plinskih in ogrevalnih napeljav in naprav</td>
+					<td class="znesek" data-amount="70941.5592">70.941,56</td>
+				</tr>
+				<tr>
+					<td>22.230</td>
+					<td>Proizvodnja izdelkov iz plastičnih mas za gradbeništvo</td>
+					<td class="znesek" data-amount="69434.0228">69.434,02</td>
+				</tr>
+				<tr>
+					<td>31.010</td>
+					<td>Proizvodnja pohištva za poslovne in prodajne prostore</td>
+					<td class="znesek" data-amount="68959.9963">68.960,00</td>
+				</tr>
+				<tr>
+					<td>58.190</td>
+					<td>Drugo založništvo</td>
+					<td class="znesek" data-amount="68293.4897">68.293,49</td>
+				</tr>
+				<tr>
+					<td>46.660</td>
+					<td>Trgovina na debelo s pisarniškimi stroji in opremo</td>
+					<td class="znesek" data-amount="65165.7081">65.165,71</td>
+				</tr>
+				<tr>
+					<td>46.510</td>
+					<td>Trgovina na debelo z računalniškimi napravami</td>
+					<td class="znesek" data-amount="64792.4610">64.792,46</td>
+				</tr>
+				<tr>
+					<td>56.101</td>
+					<td>Restavracije in gostilne</td>
+					<td class="znesek" data-amount="63015.4532">63.015,45</td>
+				</tr>
+				<tr>
+					<td>28.930</td>
+					<td>Proizvodnja strojev za živilsko in tobačno industrijo</td>
+					<td class="znesek" data-amount="62882.4900">62.882,49</td>
+				</tr>
+				<tr>
+					<td>26.400</td>
+					<td>Proizvodnja elektronskih naprav za široko rabo</td>
+					<td class="znesek" data-amount="58559.7043">58.559,70</td>
+				</tr>
+				<tr>
+					<td>47.110</td>
+					<td>Trgovina na drobno v nespecializiranih prodajalnah, pretežno z živili</td>
+					<td class="znesek" data-amount="55696.2763">55.696,28</td>
+				</tr>
+				<tr>
+					<td>45.110</td>
+					<td>Trgovina z avtomobili in lahkimi motornimi vozili</td>
+					<td class="znesek" data-amount="53574.5262">53.574,53</td>
+				</tr>
+				<tr>
+					<td>46.490</td>
+					<td>Trgovina na debelo z drugimi izdelki široke porabe</td>
+					<td class="znesek" data-amount="52348.5895">52.348,59</td>
+				</tr>
+				<tr>
+					<td>60.100</td>
+					<td>Radijska dejavnost</td>
+					<td class="znesek" data-amount="52004.0181">52.004,02</td>
+				</tr>
+				<tr>
+					<td>96.090</td>
+					<td>Druge storitvene dejavnosti, drugje nerazvrščene</td>
+					<td class="znesek" data-amount="49778.5803">49.778,58</td>
+				</tr>
+				<tr>
+					<td>18.120</td>
+					<td>Drugo tiskanje</td>
+					<td class="znesek" data-amount="48641.2061">48.641,21</td>
+				</tr>
+				<tr>
+					<td>26.110</td>
+					<td>Proizvodnja elektronskih komponent</td>
+					<td class="znesek" data-amount="48402.9500">48.402,95</td>
+				</tr>
+				<tr>
+					<td>42.910</td>
+					<td>Gradnja vodnih objektov</td>
+					<td class="znesek" data-amount="46115.2263">46.115,23</td>
+				</tr>
+				<tr>
+					<td>47.910</td>
+					<td>Trgovina na drobno po pošti ali po internetu</td>
+					<td class="znesek" data-amount="44991.5700">44.991,57</td>
+				</tr>
+				<tr>
+					<td>46.430</td>
+					<td>Trgovina na debelo z električnimi gospodinjskimi napravami</td>
+					<td class="znesek" data-amount="44661.1718">44.661,17</td>
+				</tr>
+				<tr>
+					<td>75.000</td>
+					<td>Veterinarstvo</td>
+					<td class="znesek" data-amount="43759.1288">43.759,13</td>
+				</tr>
+				<tr>
+					<td>31.090</td>
+					<td>Proizvodnja drugega pohištva</td>
+					<td class="znesek" data-amount="43579.9757">43.579,98</td>
+				</tr>
+				<tr>
+					<td>85.329</td>
+					<td>Druge socialne dejavnosti</td>
+					<td class="znesek" data-amount="43222.4376">43.222,44</td>
+				</tr>
+				<tr>
+					<td>79.900</td>
+					<td>Rezervacije in druge s potovanji povezane dejavnosti</td>
+					<td class="znesek" data-amount="41464.9065">41.464,91</td>
+				</tr>
+				<tr>
+					<td>72.200</td>
+					<td>Raziskovalna in razvojna dejavnost na področju družboslovja in humanistike</td>
+					<td class="znesek" data-amount="38750.3679">38.750,37</td>
+				</tr>
+				<tr>
+					<td>47.520</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z gradbenim materialom, kovinskimi izdelki, barvami in steklom</td>
+					<td class="znesek" data-amount="38236.7205">38.236,72</td>
+				</tr>
+				<tr>
+					<td>47.610</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s knjigami</td>
+					<td class="znesek" data-amount="38151.6574">38.151,66</td>
+				</tr>
+				<tr>
+					<td>85.100</td>
+					<td>Predšolska vzgoja</td>
+					<td class="znesek" data-amount="37699.9115">37.699,91</td>
+				</tr>
+				<tr>
+					<td>69.103</td>
+					<td>Druge pravne dejavnosti</td>
+					<td class="znesek" data-amount="37284.3164">37.284,32</td>
+				</tr>
+				<tr>
+					<td>43.910</td>
+					<td>Postavljanje ostrešij in krovska dela</td>
+					<td class="znesek" data-amount="34799.5300">34.799,53</td>
+				</tr>
+				<tr>
+					<td>86.220</td>
+					<td>Specialistična zunajbolnišnična zdravstvena dejavnost</td>
+					<td class="znesek" data-amount="34168.3887">34.168,39</td>
+				</tr>
+				<tr>
+					<td>68.100</td>
+					<td>Trgovanje z lastnimi nepremičninami</td>
+					<td class="znesek" data-amount="33513.1440">33.513,14</td>
+				</tr>
+				<tr>
+					<td>38.320</td>
+					<td>Pridobivanje sekundarnih surovin iz ostankov in odpadkov</td>
+					<td class="znesek" data-amount="33020.9200">33.020,92</td>
+				</tr>
+				<tr>
+					<td>25.990</td>
+					<td>Proizvodnja drugje nerazvrščenih kovinskih izdelkov</td>
+					<td class="znesek" data-amount="32606.2178">32.606,22</td>
+				</tr>
+				<tr>
+					<td>43.310</td>
+					<td>Fasaderska in štukaterska dela</td>
+					<td class="znesek" data-amount="32519.1600">32.519,16</td>
+				</tr>
+				<tr>
+					<td>47.190</td>
+					<td>Druga trgovina na drobno v nespecializiranih prodajalnah</td>
+					<td class="znesek" data-amount="32054.7617">32.054,76</td>
+				</tr>
+				<tr>
+					<td>93.299</td>
+					<td>Druge nerazvrščene dejavnosti za prosti čas</td>
+					<td class="znesek" data-amount="30895.0035">30.895,00</td>
+				</tr>
+				<tr>
+					<td>84.110</td>
+					<td>Splošna dejavnost javne uprave</td>
+					<td class="znesek" data-amount="30177.8515">30.177,85</td>
+				</tr>
+				<tr>
+					<td>74.200</td>
+					<td>Fotografska dejavnost</td>
+					<td class="znesek" data-amount="29578.4441">29.578,44</td>
+				</tr>
+				<tr>
+					<td>87.900</td>
+					<td>Drugo socialno varstvo z nastanitvijo</td>
+					<td class="znesek" data-amount="29577.9980">29.578,00</td>
+				</tr>
+				<tr>
+					<td>46.390</td>
+					<td>Nespecializirana trgovina na debelo z živili, pijačami, tobačnimi izdelki</td>
+					<td class="znesek" data-amount="28838.4397">28.838,44</td>
+				</tr>
+				<tr>
+					<td>23.640</td>
+					<td>Proizvodnja malte</td>
+					<td class="znesek" data-amount="28507.9100">28.507,91</td>
+				</tr>
+				<tr>
+					<td>77.110</td>
+					<td>Dajanje lahkih motornih vozil v najem in zakup</td>
+					<td class="znesek" data-amount="28275.9100">28.275,91</td>
+				</tr>
+				<tr>
+					<td>43.320</td>
+					<td>Vgrajevanje stavbnega pohištva</td>
+					<td class="znesek" data-amount="26643.9861">26.643,99</td>
+				</tr>
+				<tr>
+					<td>45.200</td>
+					<td>Vzdrževanje in popravila motornih vozil</td>
+					<td class="znesek" data-amount="26638.2058">26.638,21</td>
+				</tr>
+				<tr>
+					<td>74.500</td>
+					<td>Dejavnost  posredovanja in zaposlovanja delovne sile</td>
+					<td class="znesek" data-amount="25194.0227">25.194,02</td>
+				</tr>
+				<tr>
+					<td>28.290</td>
+					<td>Proizvodnja drugih strojev in naprav za splošne namene</td>
+					<td class="znesek" data-amount="23815.1738">23.815,17</td>
+				</tr>
+				<tr>
+					<td>26.300</td>
+					<td>Proizvodnja komunikacijskih naprav</td>
+					<td class="znesek" data-amount="23780.4800">23.780,48</td>
+				</tr>
+				<tr>
+					<td>01.430</td>
+					<td>Konjereja</td>
+					<td class="znesek" data-amount="23544.0700">23.544,07</td>
+				</tr>
+				<tr>
+					<td>85.590</td>
+					<td>Drugje nerazvrščeno izobraževanje, izpopolnjevanje in usposabljanje</td>
+					<td class="znesek" data-amount="23239.7637">23.239,76</td>
+				</tr>
+				<tr>
+					<td>70.100</td>
+					<td>Dejavnost uprav podjetij</td>
+					<td class="znesek" data-amount="22347.8598">22.347,86</td>
+				</tr>
+				<tr>
+					<td>47.540</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z električnimi gospodinjskimi napravami</td>
+					<td class="znesek" data-amount="21647.2544">21.647,25</td>
+				</tr>
+				<tr>
+					<td>56.102</td>
+					<td>Okrepčevalnice in podobni obrati</td>
+					<td class="znesek" data-amount="21334.3245">21.334,32</td>
+				</tr>
+				<tr>
+					<td>16.230</td>
+					<td>Stavbno mizarstvo in tesarstvo</td>
+					<td class="znesek" data-amount="21204.8569">21.204,86</td>
+				</tr>
+				<tr>
+					<td>46.710</td>
+					<td>Trgovina na debelo s trdimi, tekočimi in plinastimi gorivi</td>
+					<td class="znesek" data-amount="21115.3268">21.115,33</td>
+				</tr>
+				<tr>
+					<td>81.210</td>
+					<td>Splošno čiščenje stavb</td>
+					<td class="znesek" data-amount="20524.3309">20.524,33</td>
+				</tr>
+				<tr>
+					<td>46.180</td>
+					<td>Specializirano posredništvo pri prodaji drugih določenih izdelkov</td>
+					<td class="znesek" data-amount="20264.5156">20.264,52</td>
+				</tr>
+				<tr>
+					<td>69.102</td>
+					<td>Notariat</td>
+					<td class="znesek" data-amount="19081.8054">19.081,81</td>
+				</tr>
+				<tr>
+					<td>14.130</td>
+					<td>Proizvodnja drugih vrhnjih oblačil</td>
+					<td class="znesek" data-amount="19039.9943">19.039,99</td>
+				</tr>
+				<tr>
+					<td>47.590</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s pohištvom, svetili in drugje nerazvrščenimi predmeti za gospodinjstvo</td>
+					<td class="znesek" data-amount="18396.8000">18.396,80</td>
+				</tr>
+				<tr>
+					<td>08.110</td>
+					<td>Pridobivanje kamna</td>
+					<td class="znesek" data-amount="17941.1494">17.941,15</td>
+				</tr>
+				<tr>
+					<td>73.110</td>
+					<td>Dejavnost oglaševalskih agencij</td>
+					<td class="znesek" data-amount="17642.9556">17.642,96</td>
+				</tr>
+				<tr>
+					<td>58.110</td>
+					<td>Izdajanje knjig</td>
+					<td class="znesek" data-amount="17598.5948">17.598,59</td>
+				</tr>
+				<tr>
+					<td>10.130</td>
+					<td>Proizvodnja mesnih izdelkov</td>
+					<td class="znesek" data-amount="17000.7778">17.000,78</td>
+				</tr>
+				<tr>
+					<td>74.204</td>
+					<td>Drugo projektiranje in tehnično svetovanje</td>
+					<td class="znesek" data-amount="16987.3560">16.987,36</td>
+				</tr>
+				<tr>
+					<td>88.109</td>
+					<td>Drugo socialno varstvo brez nastanitve za starejše in invalidne osebe</td>
+					<td class="znesek" data-amount="16321.5100">16.321,51</td>
+				</tr>
+				<tr>
+					<td>96.030</td>
+					<td>Pogrebna dejavnost</td>
+					<td class="znesek" data-amount="16058.6199">16.058,62</td>
+				</tr>
+				<tr>
+					<td>46.470</td>
+					<td>Trgovina na debelo s pohištvom, preprogami in svetili</td>
+					<td class="znesek" data-amount="15344.3200">15.344,32</td>
+				</tr>
+				<tr>
+					<td>95.110</td>
+					<td>Popravila in vzdrževanje računalnikov in perifernih enot</td>
+					<td class="znesek" data-amount="14769.9900">14.769,99</td>
+				</tr>
+				<tr>
+					<td>52.210</td>
+					<td>Spremljajoče storitvene dejavnosti v kopenskem prometu</td>
+					<td class="znesek" data-amount="14740.7725">14.740,77</td>
+				</tr>
+				<tr>
+					<td>10.110</td>
+					<td>Proizvodnja mesa, razen perutninskega</td>
+					<td class="znesek" data-amount="14581.3190">14.581,32</td>
+				</tr>
+				<tr>
+					<td>41.100</td>
+					<td>Organizacija izvedbe stavbnih projektov</td>
+					<td class="znesek" data-amount="14502.9846">14.502,98</td>
+				</tr>
+				<tr>
+					<td>55.202</td>
+					<td>Turistične kmetije s sobami</td>
+					<td class="znesek" data-amount="14310.9835">14.310,98</td>
+				</tr>
+				<tr>
+					<td>65.110</td>
+					<td>Dejavnost življenjskega zavarovanja</td>
+					<td class="znesek" data-amount="14206.0800">14.206,08</td>
+				</tr>
+				<tr>
+					<td>13.300</td>
+					<td>Dodelava tekstilij</td>
+					<td class="znesek" data-amount="12917.4100">12.917,41</td>
+				</tr>
+				<tr>
+					<td>37.000</td>
+					<td>Ravnanje z odplakami</td>
+					<td class="znesek" data-amount="12760.4600">12.760,46</td>
+				</tr>
+				<tr>
+					<td>80.100</td>
+					<td>Varovanje</td>
+					<td class="znesek" data-amount="12687.0745">12.687,07</td>
+				</tr>
+				<tr>
+					<td>20.410</td>
+					<td>Proizvodnja mil in pralnih sredstev, čistilnih in polirnih sredstev</td>
+					<td class="znesek" data-amount="11776.6217">11.776,62</td>
+				</tr>
+				<tr>
+					<td>61.200</td>
+					<td>Brezžične telekomunikacijske dejavnosti</td>
+					<td class="znesek" data-amount="11467.3820">11.467,38</td>
+				</tr>
+				<tr>
+					<td>81.220</td>
+					<td>Drugo čiščenje stavb, industrijskih naprav in opreme</td>
+					<td class="znesek" data-amount="10797.9908">10.797,99</td>
+				</tr>
+				<tr>
+					<td>27.330</td>
+					<td>Proizvodnja vtičnic, stikal in drugih naprav za ožičenje</td>
+					<td class="znesek" data-amount="9821.9500">9.821,95</td>
+				</tr>
+				<tr>
+					<td>28.410</td>
+					<td>Proizvodnja strojev za oblikovanje in obdelavo kovin</td>
+					<td class="znesek" data-amount="9450.0000">9.450,00</td>
+				</tr>
+				<tr>
+					<td>45.210</td>
+					<td>Splošna gradbena dela</td>
+					<td class="znesek" data-amount="9262.5689">9.262,57</td>
+				</tr>
+				<tr>
+					<td>56.210</td>
+					<td>Priložnostna priprava in dostava jedi</td>
+					<td class="znesek" data-amount="9091.1993">9.091,20</td>
+				</tr>
+				<tr>
+					<td>47.761</td>
+					<td>Trgovina na drobno v cvetličarnah</td>
+					<td class="znesek" data-amount="8874.9163">8.874,92</td>
+				</tr>
+				<tr>
+					<td>46.340</td>
+					<td>Trgovina na debelo s pijačami</td>
+					<td class="znesek" data-amount="8756.6266">8.756,63</td>
+				</tr>
+				<tr>
+					<td>56.300</td>
+					<td>Strežba pijač</td>
+					<td class="znesek" data-amount="8609.3576">8.609,36</td>
+				</tr>
+				<tr>
+					<td>68.200</td>
+					<td>Oddajanje in obratovanje lastnih ali najetih nepremičnin</td>
+					<td class="znesek" data-amount="8213.4021">8.213,40</td>
+				</tr>
+				<tr>
+					<td>01.300</td>
+					<td>Razmnoževanje rastlin</td>
+					<td class="znesek" data-amount="8127.4924">8.127,49</td>
+				</tr>
+				<tr>
+					<td>43.342</td>
+					<td>Pleskarska dela</td>
+					<td class="znesek" data-amount="8007.9803">8.007,98</td>
+				</tr>
+				<tr>
+					<td>60.200</td>
+					<td>Televizijska dejavnost</td>
+					<td class="znesek" data-amount="7858.4000">7.858,40</td>
+				</tr>
+				<tr>
+					<td>82.300</td>
+					<td>Organiziranje razstav, sejmov, srečanj</td>
+					<td class="znesek" data-amount="7830.3300">7.830,33</td>
+				</tr>
+				<tr>
+					<td>49.420</td>
+					<td>Selitvena dejavnost</td>
+					<td class="znesek" data-amount="7723.6200">7.723,62</td>
+				</tr>
+				<tr>
+					<td>47.410</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z računalniškimi napravami in programi</td>
+					<td class="znesek" data-amount="7099.7400">7.099,74</td>
+				</tr>
+				<tr>
+					<td>63.120</td>
+					<td>Obratovanje spletnih portalov</td>
+					<td class="znesek" data-amount="7052.7133">7.052,71</td>
+				</tr>
+				<tr>
+					<td>32.990</td>
+					<td>Drugje nerazvrščene predelovalne dejavnosti</td>
+					<td class="znesek" data-amount="6952.0205">6.952,02</td>
+				</tr>
+				<tr>
+					<td>25.620</td>
+					<td>Mehanska obdelava kovin</td>
+					<td class="znesek" data-amount="6926.1482">6.926,15</td>
+				</tr>
+				<tr>
+					<td>46.140</td>
+					<td>Posredništvo pri prodaji strojev, industrijske opreme, ladij, letal</td>
+					<td class="znesek" data-amount="6880.8000">6.880,80</td>
+				</tr>
+				<tr>
+					<td>28.210</td>
+					<td>Proizvodnja peči in gorilnikov</td>
+					<td class="znesek" data-amount="6868.9578">6.868,96</td>
+				</tr>
+				<tr>
+					<td>13.920</td>
+					<td>Proizvodnja končnih tekstilnih izdelkov, razen oblačil</td>
+					<td class="znesek" data-amount="6775.9600">6.775,96</td>
+				</tr>
+				<tr>
+					<td>01.700</td>
+					<td>Lovstvo</td>
+					<td class="znesek" data-amount="6063.4085">6.063,41</td>
+				</tr>
+				<tr>
+					<td>16.290</td>
+					<td>Proizvodnja drugih izdelkov iz lesa, plute, slame in protja</td>
+					<td class="znesek" data-amount="6030.6500">6.030,65</td>
+				</tr>
+				<tr>
+					<td>25.732</td>
+					<td>Proizvodnja orodja za stroje</td>
+					<td class="znesek" data-amount="5907.8999">5.907,90</td>
+				</tr>
+				<tr>
+					<td>10.510</td>
+					<td>Mlekarstvo in sirarstvo</td>
+					<td class="znesek" data-amount="5841.8725">5.841,87</td>
+				</tr>
+				<tr>
+					<td>26.120</td>
+					<td>Proizvodnja elektronskih plošč</td>
+					<td class="znesek" data-amount="5523.0000">5.523,00</td>
+				</tr>
+				<tr>
+					<td>32.400</td>
+					<td>Proizvodnja igrač in rekvizitov za igre in zabavo</td>
+					<td class="znesek" data-amount="5468.8600">5.468,86</td>
+				</tr>
+				<tr>
+					<td>26.510</td>
+					<td>Proizvodnja merilnih, preizkuševalnih in navigacijskih instrumentov in naprav</td>
+					<td class="znesek" data-amount="5106.1320">5.106,13</td>
+				</tr>
+				<tr>
+					<td>86.210</td>
+					<td>Splošna zunajbolnišnična zdravstvena dejavnost</td>
+					<td class="znesek" data-amount="5071.8004">5.071,80</td>
+				</tr>
+				<tr>
+					<td>71.200</td>
+					<td>Tehnično preizkušanje in analiziranje</td>
+					<td class="znesek" data-amount="5002.8880">5.002,89</td>
+				</tr>
+				<tr>
+					<td>85.520</td>
+					<td>Izobraževanje, izpopolnjevanje in usposabljanje na področju kulture in umetnosti</td>
+					<td class="znesek" data-amount="4680.9062">4.680,91</td>
+				</tr>
+				<tr>
+					<td>79.120</td>
+					<td>Dejavnost organizatorjev potovanj</td>
+					<td class="znesek" data-amount="4661.4121">4.661,41</td>
+				</tr>
+				<tr>
+					<td>85.422</td>
+					<td>Visokošolsko izobraževanje</td>
+					<td class="znesek" data-amount="4598.0000">4.598,00</td>
+				</tr>
+				<tr>
+					<td>N/A</td>
+					<td>None</td>
+					<td class="znesek" data-amount="4594.1352">4.594,14</td>
+				</tr>
+				<tr>
+					<td>27.400</td>
+					<td>Proizvodnja naprav in opreme za razsvetljavo</td>
+					<td class="znesek" data-amount="4512.9984">4.513,00</td>
+				</tr>
+				<tr>
+					<td>74.300</td>
+					<td>Prevajanje in tolmačenje</td>
+					<td class="znesek" data-amount="4492.5900">4.492,59</td>
+				</tr>
+				<tr>
+					<td>38.220</td>
+					<td>Ravnanje z nevarnimi odpadki</td>
+					<td class="znesek" data-amount="4050.5957">4.050,60</td>
+				</tr>
+				<tr>
+					<td>63.110</td>
+					<td>Obdelava podatkov in s tem povezane dejavnosti</td>
+					<td class="znesek" data-amount="3986.5017">3.986,50</td>
+				</tr>
+				<tr>
+					<td>28.220</td>
+					<td>Proizvodnja dvigalnih in transportnih naprav</td>
+					<td class="znesek" data-amount="3795.9132">3.795,91</td>
+				</tr>
+				<tr>
+					<td>46.130</td>
+					<td>Posredništvo pri prodaji lesa in gradbenega materiala</td>
+					<td class="znesek" data-amount="3723.0105">3.723,01</td>
+				</tr>
+				<tr>
+					<td>25.710</td>
+					<td>Proizvodnja rezil in jedilnega pribora</td>
+					<td class="znesek" data-amount="3543.9763">3.543,98</td>
+				</tr>
+				<tr>
+					<td>47.640</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s športno opremo</td>
+					<td class="znesek" data-amount="3483.1300">3.483,13</td>
+				</tr>
+				<tr>
+					<td>03.120</td>
+					<td>Sladkovodno ribištvo</td>
+					<td class="znesek" data-amount="3455.7681">3.455,77</td>
+				</tr>
+				<tr>
+					<td>29.310</td>
+					<td>Proizvodnja električne in elektronske opreme za motorna vozila</td>
+					<td class="znesek" data-amount="3408.0000">3.408,00</td>
+				</tr>
+				<tr>
+					<td>47.990</td>
+					<td>Druga trgovina na drobno zunaj prodajaln, stojnic in tržnic</td>
+					<td class="znesek" data-amount="3305.7054">3.305,71</td>
+				</tr>
+				<tr>
+					<td>22.290</td>
+					<td>Proizvodnja drugih izdelkov iz plastičnih mas</td>
+					<td class="znesek" data-amount="3219.4344">3.219,43</td>
+				</tr>
+				<tr>
+					<td>55.201</td>
+					<td>Počitniški domovi in letovišča</td>
+					<td class="znesek" data-amount="3085.6000">3.085,60</td>
+				</tr>
+				<tr>
+					<td>58.120</td>
+					<td>Izdajanje imenikov in adresarjev</td>
+					<td class="znesek" data-amount="2997.4032">2.997,40</td>
+				</tr>
+				<tr>
+					<td>63.910</td>
+					<td>Dejavnost tiskovnih agencij</td>
+					<td class="znesek" data-amount="2982.2210">2.982,22</td>
+				</tr>
+				<tr>
+					<td>20.100</td>
+					<td>Žaganje in skobljanje lesa ter impregniranje lesa</td>
+					<td class="znesek" data-amount="2914.1211">2.914,12</td>
+				</tr>
+				<tr>
+					<td>22.220</td>
+					<td>Proizvodnja embalaže iz plastičnih mas</td>
+					<td class="znesek" data-amount="2913.8498">2.913,85</td>
+				</tr>
+				<tr>
+					<td>58.140</td>
+					<td>Izdajanje revij in druge periodike</td>
+					<td class="znesek" data-amount="2887.4041">2.887,40</td>
+				</tr>
+				<tr>
+					<td>47.782</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z umetniškimi izdelki</td>
+					<td class="znesek" data-amount="2844.4858">2.844,49</td>
+				</tr>
+				<tr>
+					<td>73.120</td>
+					<td>Posredovanje oglaševalskega prostora</td>
+					<td class="znesek" data-amount="2726.1000">2.726,10</td>
+				</tr>
+				<tr>
+					<td>90.020</td>
+					<td>Spremljajoče dejavnosti za umetniško uprizarjanje</td>
+					<td class="znesek" data-amount="2623.0814">2.623,08</td>
+				</tr>
+				<tr>
+					<td>18.200</td>
+					<td>Razmnoževanje posnetih nosilcev zapisa</td>
+					<td class="znesek" data-amount="2596.8000">2.596,80</td>
+				</tr>
+				<tr>
+					<td>35.300</td>
+					<td>Oskrba s paro in vročo vodo</td>
+					<td class="znesek" data-amount="2517.0900">2.517,09</td>
+				</tr>
+				<tr>
+					<td>39.000</td>
+					<td>Saniranje okolja in drugo ravnanje z odpadki</td>
+					<td class="znesek" data-amount="2263.2000">2.263,20</td>
+				</tr>
+				<tr>
+					<td>94.110</td>
+					<td>Dejavnost poslovnih in delodajalskih združenj</td>
+					<td class="znesek" data-amount="2200.9301">2.200,93</td>
+				</tr>
+				<tr>
+					<td>01.490</td>
+					<td>Reja drugih živali</td>
+					<td class="znesek" data-amount="2127.9200">2.127,92</td>
+				</tr>
+				<tr>
+					<td>96.010</td>
+					<td>Dejavnost pralnic in kemičnih čistilnic</td>
+					<td class="znesek" data-amount="2117.6342">2.117,63</td>
+				</tr>
+				<tr>
+					<td>17.210</td>
+					<td>Proizvodnja valovitega papirja in kartona ter papirne in kartonske embalaže</td>
+					<td class="znesek" data-amount="2066.7496">2.066,75</td>
+				</tr>
+				<tr>
+					<td>47.710</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z oblačili</td>
+					<td class="znesek" data-amount="2034.4900">2.034,49</td>
+				</tr>
+				<tr>
+					<td>59.110</td>
+					<td>Produkcija filmov, video filmov, televizijskih oddaj</td>
+					<td class="znesek" data-amount="1990.0000">1.990,00</td>
+				</tr>
+				<tr>
+					<td>33.140</td>
+					<td>Popravila električnih naprav</td>
+					<td class="znesek" data-amount="1935.8000">1.935,80</td>
+				</tr>
+				<tr>
+					<td>30.110</td>
+					<td>Gradnja ladij in plavajočih konstrukcij</td>
+					<td class="znesek" data-amount="1932.8243">1.932,82</td>
+				</tr>
+				<tr>
+					<td>46.420</td>
+					<td>Trgovina na debelo z oblačili in obutvijo</td>
+					<td class="znesek" data-amount="1854.0000">1.854,00</td>
+				</tr>
+				<tr>
+					<td>45.320</td>
+					<td>Trgovina na drobno z rezervnimi deli in opremo za motorna vozila</td>
+					<td class="znesek" data-amount="1784.4541">1.784,45</td>
+				</tr>
+				<tr>
+					<td>01.190</td>
+					<td>Pridelovanje cvetja in drugih enoletnih rastlin</td>
+					<td class="znesek" data-amount="1751.6086">1.751,61</td>
+				</tr>
+				<tr>
+					<td>47.770</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z urami in nakitom</td>
+					<td class="znesek" data-amount="1728.7097">1.728,71</td>
+				</tr>
+				<tr>
+					<td>96.040</td>
+					<td>Dejavnosti za nego telesa</td>
+					<td class="znesek" data-amount="1699.5900">1.699,59</td>
+				</tr>
+				<tr>
+					<td>46.150</td>
+					<td>Posredništvo pri prodaji pohištva, predmetov in naprav za gospodinjstvo in železnine</td>
+					<td class="znesek" data-amount="1658.9223">1.658,92</td>
+				</tr>
+				<tr>
+					<td>23.120</td>
+					<td>Oblikovanje in obdelava ravnega stekla</td>
+					<td class="znesek" data-amount="1654.3200">1.654,32</td>
+				</tr>
+				<tr>
+					<td>13.990</td>
+					<td>Proizvodnja drugje nerazvrščenih tekstilij</td>
+					<td class="znesek" data-amount="1634.4330">1.634,43</td>
+				</tr>
+				<tr>
+					<td>47.430</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z avdio in video napravami</td>
+					<td class="znesek" data-amount="1631.9751">1.631,98</td>
+				</tr>
+				<tr>
+					<td>23.610</td>
+					<td>Proizvodnja betonskih izdelkov za gradbeništvo</td>
+					<td class="znesek" data-amount="1630.9464">1.630,95</td>
+				</tr>
+				<tr>
+					<td>22.210</td>
+					<td>Proizvodnja plošč, folij, cevi in profilov iz plastičnih mas</td>
+					<td class="znesek" data-amount="1620.0000">1.620,00</td>
+				</tr>
+				<tr>
+					<td>27.510</td>
+					<td>Proizvodnja električnih gospodinjskih naprav</td>
+					<td class="znesek" data-amount="1566.6546">1.566,65</td>
+				</tr>
+				<tr>
+					<td>02.200</td>
+					<td>Sečnja</td>
+					<td class="znesek" data-amount="1565.4900">1.565,49</td>
+				</tr>
+				<tr>
+					<td>17.300</td>
+					<td>Plemenitenje tekstilij</td>
+					<td class="znesek" data-amount="1519.5501">1.519,55</td>
+				</tr>
+				<tr>
+					<td>84.120</td>
+					<td>Urejanje zdravstva, izobraževanja, kulturnih in drugih socialnih storitev, razen obvezne socialne varnosti</td>
+					<td class="znesek" data-amount="1500.0000">1.500,00</td>
+				</tr>
+				<tr>
+					<td>45.442</td>
+					<td>Pleskarska dela</td>
+					<td class="znesek" data-amount="1491.3900">1.491,39</td>
+				</tr>
+				<tr>
+					<td>77.210</td>
+					<td>Dajanje športne opreme v najem in zakup</td>
+					<td class="znesek" data-amount="1352.0280">1.352,03</td>
+				</tr>
+				<tr>
+					<td>01.210</td>
+					<td>Vinogradništvo</td>
+					<td class="znesek" data-amount="1321.1567">1.321,16</td>
+				</tr>
+				<tr>
+					<td>65.300</td>
+					<td>Dejavnost pokojninskih skladov</td>
+					<td class="znesek" data-amount="1129.2200">1.129,22</td>
+				</tr>
+				<tr>
+					<td>95.220</td>
+					<td>Popravila gospodinjskih in hišnih naprav in opreme</td>
+					<td class="znesek" data-amount="1112.0000">1.112,00</td>
+				</tr>
+				<tr>
+					<td>24.510</td>
+					<td>Litje železa</td>
+					<td class="znesek" data-amount="1078.9200">1.078,92</td>
+				</tr>
+				<tr>
+					<td>59.130</td>
+					<td>Distribucija filmov, video filmov, televizijskih oddaj</td>
+					<td class="znesek" data-amount="1068.0000">1.068,00</td>
+				</tr>
+				<tr>
+					<td>28.130</td>
+					<td>Proizvodnja črpalk in kompresorjev</td>
+					<td class="znesek" data-amount="1067.7600">1.067,76</td>
+				</tr>
+				<tr>
+					<td>43.341</td>
+					<td>Steklarska dela</td>
+					<td class="znesek" data-amount="1035.3077">1.035,31</td>
+				</tr>
+				<tr>
+					<td>30.120</td>
+					<td>Proizvodnja čolnov za razvedrilo in šport</td>
+					<td class="znesek" data-amount="1020.0000">1.020,00</td>
+				</tr>
+				<tr>
+					<td>47.220</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z mesom in mesnimi izdelki</td>
+					<td class="znesek" data-amount="996.0300">996,03</td>
+				</tr>
+				<tr>
+					<td>46.410</td>
+					<td>Trgovina na debelo s tekstilom</td>
+					<td class="znesek" data-amount="921.4735">921,47</td>
+				</tr>
+				<tr>
+					<td>15.200</td>
+					<td>Proizvodnja obutve</td>
+					<td class="znesek" data-amount="911.2726">911,27</td>
+				</tr>
+				<tr>
+					<td>14.190</td>
+					<td>Proizvodnja drugih oblačil, pokrival ter dodatkov</td>
+					<td class="znesek" data-amount="907.7020">907,70</td>
+				</tr>
+				<tr>
+					<td>02.100</td>
+					<td>Gojenje gozdov in druge gozdarske dejavnosti</td>
+					<td class="znesek" data-amount="903.0364">903,04</td>
+				</tr>
+				<tr>
+					<td>47.530</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s preprogami, talnimi in stenskimi oblogami</td>
+					<td class="znesek" data-amount="862.3015">862,30</td>
+				</tr>
+				<tr>
+					<td>22.130</td>
+					<td>Izdajanje revij in periodike</td>
+					<td class="znesek" data-amount="854.0939">854,09</td>
+				</tr>
+				<tr>
+					<td>50.200</td>
+					<td>Pomorski tovorni promet</td>
+					<td class="znesek" data-amount="853.4268">853,43</td>
+				</tr>
+				<tr>
+					<td>25.120</td>
+					<td>Proizvodnja kovinskega stavbnega pohištva</td>
+					<td class="znesek" data-amount="818.4000">818,40</td>
+				</tr>
+				<tr>
+					<td>85.421</td>
+					<td>Višješolsko izobraževanje</td>
+					<td class="znesek" data-amount="799.2349">799,23</td>
+				</tr>
+				<tr>
+					<td>30.920</td>
+					<td>Proizvodnja koles in invalidskih vozičkov</td>
+					<td class="znesek" data-amount="789.2400">789,24</td>
+				</tr>
+				<tr>
+					<td>17.200</td>
+					<td>Tkanje tekstilij</td>
+					<td class="znesek" data-amount="620.5809">620,58</td>
+				</tr>
+				<tr>
+					<td>79.110</td>
+					<td>Dejavnost potovalnih agencij</td>
+					<td class="znesek" data-amount="601.2139">601,21</td>
+				</tr>
+				<tr>
+					<td>52.462</td>
+					<td>Trgovina na drobno z barvami, laki in drugimi kemičnimi sredstvi</td>
+					<td class="znesek" data-amount="599.9166">599,92</td>
+				</tr>
+				<tr>
+					<td>47.622</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s papirjem in pisalnimi potrebščinami</td>
+					<td class="znesek" data-amount="598.6922">598,69</td>
+				</tr>
+				<tr>
+					<td>47.420</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s telekomunikacijskimi napravami</td>
+					<td class="znesek" data-amount="559.0000">559,00</td>
+				</tr>
+				<tr>
+					<td>74.700</td>
+					<td>Čiščenje objektov in opreme</td>
+					<td class="znesek" data-amount="557.1724">557,17</td>
+				</tr>
+				<tr>
+					<td>27.540</td>
+					<td>Litje drugih neželeznih kovin</td>
+					<td class="znesek" data-amount="525.7887">525,79</td>
+				</tr>
+				<tr>
+					<td>20.160</td>
+					<td>Proizvodnja plastičnih mas v primarni obliki</td>
+					<td class="znesek" data-amount="519.6000">519,60</td>
+				</tr>
+				<tr>
+					<td>92.530</td>
+					<td>Dejavnost botaničnih in živalskih vrtov ter naravnih rezervatov</td>
+					<td class="znesek" data-amount="513.4783">513,48</td>
+				</tr>
+				<tr>
+					<td>10.610</td>
+					<td>Mlinarstvo</td>
+					<td class="znesek" data-amount="506.1600">506,16</td>
+				</tr>
+				<tr>
+					<td>10.710</td>
+					<td>Proizvodnja kruha, svežega peciva in slaščic</td>
+					<td class="znesek" data-amount="501.9042">501,90</td>
+				</tr>
+				<tr>
+					<td>01.500</td>
+					<td>Mešano kmetijstvo</td>
+					<td class="znesek" data-amount="490.9500">490,95</td>
+				</tr>
+				<tr>
+					<td>46.690</td>
+					<td>Trgovina na debelo z drugimi napravami in opremo</td>
+					<td class="znesek" data-amount="464.4384">464,44</td>
+				</tr>
+				<tr>
+					<td>82.190</td>
+					<td>Fotokopiranje, priprava dokumentov in druge posamične pisarniške dejavnosti</td>
+					<td class="znesek" data-amount="463.9689">463,97</td>
+				</tr>
+				<tr>
+					<td>52.630</td>
+					<td>Druga trgovina na drobno zunaj prodajaln</td>
+					<td class="znesek" data-amount="440.9614">440,96</td>
+				</tr>
+				<tr>
+					<td>94.200</td>
+					<td>Dejavnost sindikatov</td>
+					<td class="znesek" data-amount="417.2926">417,29</td>
+				</tr>
+				<tr>
+					<td>20.110</td>
+					<td>Proizvodnja tehničnih plinov</td>
+					<td class="znesek" data-amount="408.3000">408,30</td>
+				</tr>
+				<tr>
+					<td>85.310</td>
+					<td>Srednješolsko splošno izobraževanje</td>
+					<td class="znesek" data-amount="400.0000">400,00</td>
+				</tr>
+				<tr>
+					<td>64.200</td>
+					<td>Dejavnost holdingov</td>
+					<td class="znesek" data-amount="381.0090">381,01</td>
+				</tr>
+				<tr>
+					<td>96.021</td>
+					<td>Frizerska dejavnost</td>
+					<td class="znesek" data-amount="377.3577">377,36</td>
+				</tr>
+				<tr>
+					<td>11.050</td>
+					<td>Proizvodnja piva</td>
+					<td class="znesek" data-amount="367.2400">367,24</td>
+				</tr>
+				<tr>
+					<td>49.200</td>
+					<td>Železniški tovorni promet</td>
+					<td class="znesek" data-amount="352.4900">352,49</td>
+				</tr>
+				<tr>
+					<td>24.540</td>
+					<td>Litje drugih neželeznih kovin</td>
+					<td class="znesek" data-amount="312.0000">312,00</td>
+				</tr>
+				<tr>
+					<td>16.100</td>
+					<td>Žaganje, skobljanje in impregniranje lesa</td>
+					<td class="znesek" data-amount="309.0000">309,00</td>
+				</tr>
+				<tr>
+					<td>78.100</td>
+					<td>Dejavnost pri iskanju zaposlitve</td>
+					<td class="znesek" data-amount="303.8300">303,83</td>
+				</tr>
+				<tr>
+					<td>51.100</td>
+					<td>Potniški zračni promet</td>
+					<td class="znesek" data-amount="290.0600">290,06</td>
+				</tr>
+				<tr>
+					<td>46.450</td>
+					<td>Trgovina na debelo s parfumi in kozmetiko</td>
+					<td class="znesek" data-amount="278.5000">278,50</td>
+				</tr>
+				<tr>
+					<td>46.170</td>
+					<td>Posredništvo pri prodaji živil, pijač, tobačnih izdelkov</td>
+					<td class="znesek" data-amount="261.1098">261,11</td>
+				</tr>
+				<tr>
+					<td>46.750</td>
+					<td>Trgovina na debelo s kemičnimi izdelki</td>
+					<td class="znesek" data-amount="248.0200">248,02</td>
+				</tr>
+				<tr>
+					<td>46.160</td>
+					<td>Posredništvo pri prodaji tekstila, oblačil, krzna, obutve, usnjenih izdelkov</td>
+					<td class="znesek" data-amount="237.8600">237,86</td>
+				</tr>
+				<tr>
+					<td>31.020</td>
+					<td>Proizvodnja kuhinjskega pohištva</td>
+					<td class="znesek" data-amount="216.0000">216,00</td>
+				</tr>
+				<tr>
+					<td>55.400</td>
+					<td>Točenje pijač</td>
+					<td class="znesek" data-amount="210.4031">210,40</td>
+				</tr>
+				<tr>
+					<td>47.762</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z vrtnarsko opremo in hišnimi živalmi</td>
+					<td class="znesek" data-amount="208.8537">208,85</td>
+				</tr>
+				<tr>
+					<td>91.330</td>
+					<td>Dejavnost drugih članskih organizacij</td>
+					<td class="znesek" data-amount="208.6463">208,65</td>
+				</tr>
+				<tr>
+					<td>47.290</td>
+					<td>Druga trgovina na drobno v specializiranih prodajalnah z živili</td>
+					<td class="znesek" data-amount="204.6000">204,60</td>
+				</tr>
+				<tr>
+					<td>33.130</td>
+					<td>Popravila elektronskih in optičnih naprav</td>
+					<td class="znesek" data-amount="195.2929">195,29</td>
+				</tr>
+				<tr>
+					<td>32.100</td>
+					<td>Proizvodnja elektronk, elektronskih ventilov in drugih elektronskih komponent</td>
+					<td class="znesek" data-amount="192.0381">192,04</td>
+				</tr>
+				<tr>
+					<td>51.190</td>
+					<td>Posredništvo pri prodaji raznovrstnih izdelkov</td>
+					<td class="znesek" data-amount="190.5390">190,54</td>
+				</tr>
+				<tr>
+					<td>52.482</td>
+					<td>Dejavnost cvetličarn</td>
+					<td class="znesek" data-amount="189.1588">189,16</td>
+				</tr>
+				<tr>
+					<td>77.220</td>
+					<td>Dajanje videokaset in plošč v najem</td>
+					<td class="znesek" data-amount="180.4153">180,42</td>
+				</tr>
+				<tr>
+					<td>38.310</td>
+					<td>Demontaža odpadnih naprav</td>
+					<td class="znesek" data-amount="180.0000">180,00</td>
+				</tr>
+				<tr>
+					<td>47.510</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah s tekstilom</td>
+					<td class="znesek" data-amount="169.4334">169,43</td>
+				</tr>
+				<tr>
+					<td>56.103</td>
+					<td>Slaščičarne in kavarne</td>
+					<td class="znesek" data-amount="163.3701">163,37</td>
+				</tr>
+				<tr>
+					<td>32.120</td>
+					<td>Proizvodnja nakita in podobnih izdelkov</td>
+					<td class="znesek" data-amount="158.1000">158,10</td>
+				</tr>
+				<tr>
+					<td>46.440</td>
+					<td>Trgovina na debelo s porcelanom, steklenino, čistili</td>
+					<td class="znesek" data-amount="140.3887">140,39</td>
+				</tr>
+				<tr>
+					<td>18.140</td>
+					<td>Knjigoveštvo in sorodne dejavnosti</td>
+					<td class="znesek" data-amount="135.2028">135,20</td>
+				</tr>
+				<tr>
+					<td>85.530</td>
+					<td>Dejavnost vozniških šol</td>
+					<td class="znesek" data-amount="131.8644">131,86</td>
+				</tr>
+				<tr>
+					<td>47.720</td>
+					<td>Trgovina na drobno v specializiranih prodajalnah z obutvijo in usnjenimi izdelki</td>
+					<td class="znesek" data-amount="127.8400">127,84</td>
+				</tr>
+				<tr>
+					<td>43.120</td>
+					<td>Zemeljska pripravljalna dela</td>
+					<td class="znesek" data-amount="120.0000">120,00</td>
+				</tr>
+				<tr>
+					<td>13.200</td>
+					<td>Tkanje tekstilij</td>
+					<td class="znesek" data-amount="117.7636">117,76</td>
+				</tr>
+				<tr>
+					<td>25.240</td>
+					<td>Proizvodnja drugih izdelkov iz plastičnih mas</td>
+					<td class="znesek" data-amount="116.5780">116,58</td>
+				</tr>
+				<tr>
+					<td>46.760</td>
+					<td>Trgovina na debelo z drugimi polizdelki</td>
+					<td class="znesek" data-amount="115.5600">115,56</td>
+				</tr>
+				<tr>
+					<td>52.110</td>
+					<td>Trgovina na drobno v nespecializiranih prodajalnah, pretežno z živili</td>
+					<td class="znesek" data-amount="108.4961">108,50</td>
+				</tr>
+				<tr>
+					<td>10.120</td>
+					<td>Proizvodnja perutninskega mesa</td>
+					<td class="znesek" data-amount="97.1500">97,15</td>
+				</tr>
+				<tr>
+					<td>36.630</td>
+					<td>Proizvodnja drugih izdelkov</td>
+					<td class="znesek" data-amount="92.6390">92,64</td>
+				</tr>
+				<tr>
+					<td>46.370</td>
+					<td>Trgovina na debelo s kavo, čajem, kakavom, začimbami</td>
+					<td class="znesek" data-amount="89.0000">89,00</td>
+				</tr>
+				<tr>
+					<td>95.120</td>
+					<td>Popravila komunikacijskih naprav</td>
+					<td class="znesek" data-amount="87.7000">87,70</td>
+				</tr>
+				<tr>
+					<td>46.520</td>
+					<td>Trgovina na debelo z elektronskimi in telekomunikacijskimi napravami in deli</td>
+					<td class="znesek" data-amount="70.8000">70,80</td>
+				</tr>
+				<tr>
+					<td>42.120</td>
+					<td>Gradnja železnic in podzemnih železnic</td>
+					<td class="znesek" data-amount="70.1052">70,11</td>
+				</tr>
+				<tr>
+					<td>28.520</td>
+					<td>Splošna mehanična dela</td>
+					<td class="znesek" data-amount="65.0976">65,10</td>
+				</tr>
+				<tr>
+					<td>01.120</td>
+					<td>Pridelovanje riža</td>
+					<td class="znesek" data-amount="62.5900">62,59</td>
+				</tr>
+				<tr>
+					<td>28.490</td>
+					<td>Proizvodnja drugih obdelovalnih strojev</td>
+					<td class="znesek" data-amount="58.6100">58,61</td>
+				</tr>
+				<tr>
+					<td>63.990</td>
+					<td>Drugo informiranje</td>
+					<td class="znesek" data-amount="54.0000">54,00</td>
+				</tr>
+				<tr>
+					<td>66.110</td>
+					<td>Upravljanje finančnih trgov</td>
+					<td class="znesek" data-amount="48.1192">48,12</td>
+				</tr>
+				<tr>
+					<td>85.121</td>
+					<td>Splošna izvenbolnišnična zdravstvena dejavnost</td>
+					<td class="znesek" data-amount="43.5653">43,57</td>
+				</tr>
+				<tr>
+					<td>52.420</td>
+					<td>Trgovina na drobno z oblačili</td>
+					<td class="znesek" data-amount="39.9079">39,91</td>
+				</tr>
+				<tr>
+					<td>46.460</td>
+					<td>Trgovina na debelo s farmacevtskimi izdelki ter medicinskimi potrebščinami in materiali</td>
+					<td class="znesek" data-amount="39.1981">39,20</td>
+				</tr>
+				<tr>
+					<td>46.480</td>
+					<td>Trgovina na debelo z urami in nakitom</td>
+					<td class="znesek" data-amount="35.8037">35,80</td>
+				</tr>
+				<tr>
+					<td>27.200</td>
+					<td>Proizvodnja baterij in akumulatorjev</td>
+					<td class="znesek" data-amount="32.2400">32,24</td>
+				</tr>
+				<tr>
+					<td>14.390</td>
+					<td>Proizvodnja drugih pletenih in kvačkanih oblačil</td>
+					<td class="znesek" data-amount="29.5200">29,52</td>
+				</tr>
+				<tr>
+					<td>47.820</td>
+					<td>Trgovina na drobno na stojnicah in tržnicah s tekstilijami in obutvijo</td>
+					<td class="znesek" data-amount="21.6000">21,60</td>
+				</tr>
+				<tr>
+					<td>95.290</td>
+					<td>Popravila drugih osebnih ali gospodinjskih izdelkov</td>
+					<td class="znesek" data-amount="11.6800">11,68</td>
+				</tr>
+				<tr>
+					<td>46.120</td>
+					<td>Posredništvo pri prodaji goriv, rud, kovin, tehničnih kemikalij</td>
+					<td class="znesek" data-amount="9.0970">9,10</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	
+	<section class="list-matches">
+	<script type="text/javascript">
+	var total_sum = 101054013;
+	</script>
+	
+	<h2>
+	Seznam poslovnih subjektov, ki so poslovala z izbranim organom (vseh zadetkov <strong>1.581</strong>, skupen znesek plačil <strong>101.054.013,12&euro;</strong>):
+	</h2>
+	<p class="note">* označuje podjetje v posredni ali neposredni lasti proračunskega uporabnika</p>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="2">Podjetje</th>
+				<th class="znesek">Skupen znesek (&euro;)</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/24009725/">PB SLOVENIJE, d.d. - bančna skupina Nove KBM d.d.</a></td>
+				<td class="znesek">8.139.828,48</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/98026305/">BANKA KOPER d.d.</a></td>
+				<td class="znesek">7.362.336,27</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/95666222/">PRIMORJE d.d. - v stečaju</a></td>
+				<td class="znesek">7.297.652,60</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/63624443/">CPK d.d.</a></td>
+				<td class="znesek">7.164.203,83</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/28928695/">VALTEL d.o.o.</a></td>
+				<td class="znesek">6.391.536,79</td>
+			</tr>
+			<tr class="sorodnik">
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/17322057/">KOVOD Postojna, d.o.o.</a></td>
+				<td class="znesek">4.761.889,30</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/81419236/">KOMUS, d.o.o., Postojna</a></td>
+				<td class="znesek">3.487.835,54</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/52398790/">AVRIGO, d.o.o.</a></td>
+				<td class="znesek">2.341.483,49</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/35954221/">LESNINA INŽENIRING, d.d.</a></td>
+				<td class="znesek">2.311.953,88</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/22544763/">GASILSKA ZVEZA POSTOJNA</a></td>
+				<td class="znesek">2.025.907,33</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/37102656/">ELEKTRO PRIMORSKA d.d.</a></td>
+				<td class="znesek">1.916.993,55</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/28003713/">IMOS d.d., Ljubljana</a></td>
+				<td class="znesek">1.622.945,90</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/34679529/">MARC Gradbeno podjetje d.o.o.</a></td>
+				<td class="znesek">1.257.467,82</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/30816688/">ŠPORTNA ZVEZA POSTOJNA</a></td>
+				<td class="znesek">1.158.499,35</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/98503332/">PRVI FAKTOR d.o.o.</a></td>
+				<td class="znesek">1.106.836,50</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/23126213/">STANOVANJSKA, d.o.o.</a></td>
+				<td class="znesek">1.043.997,92</td>
+			</tr>
+			<tr class="sorodnik">
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/52568806/">POSTOJNA TURIZEM d.o.o.</a></td>
+				<td class="znesek">990.955,97</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/86251031/">TIPO Investicijske gradnje d.o.o.</a></td>
+				<td class="znesek">933.671,92</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/36806510/">PANGERC PETER S.P.</a></td>
+				<td class="znesek">873.379,01</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/77752252/">Sparkasse d.d.</a></td>
+				<td class="znesek">815.677,62</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/76608328/">ATLAS OPREMA d.o.o.</a></td>
+				<td class="znesek">692.447,94</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/67125034/">BESIM HAJDARI S.P.</a></td>
+				<td class="znesek">683.139,63</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/42712637/">HIS d.o.o.</a></td>
+				<td class="znesek">671.851,34</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/94314527/">NOVA KBM d.d.</a></td>
+				<td class="znesek">658.985,33</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/75482894/">HYPO BANK d.d.</a></td>
+				<td class="znesek">652.573,16</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/29008891/">GRADIŠČE d.o.o. Cerknica - v stečaju</a></td>
+				<td class="znesek">645.724,19</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/65751736/">HORTIKULTURA SEŽANA d.o.o.</a></td>
+				<td class="znesek">628.642,48</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/70173583/">AVTOPREVOZNIŠTVO MARTIN - VALENTINA FRELIH S.P.</a></td>
+				<td class="znesek">598.463,92</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/73058360/">GP MDS d.o.o.</a></td>
+				<td class="znesek">595.751,65</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/77494962/">HYPO LEASING d.o.o.</a></td>
+				<td class="znesek">527.137,12</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/67491766/">KOMPOST d.o.o.</a></td>
+				<td class="znesek">489.093,76</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/81396589/">PROJEKT d.d. NOVA GORICA</a></td>
+				<td class="znesek">488.247,74</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/62444689/">KOLEKTOR KOLING d.o.o.</a></td>
+				<td class="znesek">472.119,28</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/29131740/">VG5 d.o.o.</a></td>
+				<td class="znesek">470.098,83</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/59622806/">UNICREDIT BANKA SLOVENIJA d.d.</a></td>
+				<td class="znesek">435.648,48</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/69720703/">ELITA I.B., d.o.o.</a></td>
+				<td class="znesek">435.247,12</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/61776939/">EVROKOM d.o.o.</a></td>
+				<td class="znesek">395.230,61</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/40502368/">SKB d.d.</a></td>
+				<td class="znesek">379.222,65</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/86794981/">SCT, d.d., Ljubljana, Slovenija - v stečaju</a></td>
+				<td class="znesek">373.941,04</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/23493968/">SILVESTER ČUK S.P.</a></td>
+				<td class="znesek">369.883,01</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/24268330/">Dolenjgrad d.o.o.</a></td>
+				<td class="znesek">367.355,37</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/86420437/">KLJUČAVNIČARSTVO d.o.o. POSTOJNA</a></td>
+				<td class="znesek">363.617,52</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/72928794/">LESNIK TGM d.o.o. Col</a></td>
+				<td class="znesek">362.010,47</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/69669171/">PIRNAT d.o.o.</a></td>
+				<td class="znesek">303.992,86</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/68200170/">NG MAGDA SVETINA MERCINA S.P.</a></td>
+				<td class="znesek">297.478,32</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/22745238/">PROSTOVOLJNO GASILSKO DRUŠTVO POSTOJNA</a></td>
+				<td class="znesek">297.041,49</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/39947343/">GGP, d.o.o.</a></td>
+				<td class="znesek">294.716,40</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/86404652/">KOŠARKARSKO DRUŠTVO POSTOJNA</a></td>
+				<td class="znesek">277.839,10</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/40724751/">BENČAN JOŽE S.P.</a></td>
+				<td class="znesek">277.578,51</td>
+			</tr>
+			<tr>
+				<td class="legend"></td>
+				<td><a href="/organ/75949/podj/54687080/">GODINA d.o.o.</a></td>
+				<td class="znesek">267.155,05</td>
+			</tr>
+		</tbody>
+	</table>
+	
+		
+	<ul class="paginator">
+	
+		<li><strong>1</strong></li>
+		<li><a href="?page=2">2</a></li>
+		<li><a href="?page=3">3</a></li>
+		<li><a href="?page=4">4</a></li>
+		<li><a href="?page=5">5</a></li>
+		<li><a href="?page=6">6</a></li>
+		<li><a href="?page=7">7</a></li>
+		<li><a href="?page=8">8</a></li>
+		<li><a href="?page=9">9</a></li>
+		<li><a href="?page=10">10</a></li>
+		<li><a href="?page=2">Naslednja stran</a></li>
+	</ul>
+	
+
+
+	</section>
+
+
+		<footer>
+			<a href="http://www.kpk-rs.si/">&copy; Komisija za preprečevanje korupcije 2011</a>
+			(viri podatkov: <a href="http://www.ujp.gov.si">UJP</a>, <a href="http://www.ajpes.si">AJPES</a>)
+			<span><a href="mailto:napake@kpk-rs.si">prijavi napako, sporoči pripombo, daj predlog</a></span>
+		</footer>
+	</section>
+</body>
+</html>
