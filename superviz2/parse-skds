@@ -14,17 +14,19 @@ try:
     for tr in trs:
         trp = tr.findAll("td")
         a = tr.findAll("a")
+        r = ""
         for idx, trp_ in enumerate(trp):
             trpu = trp_.string
-            if idx == 1: print trpu.encode('utf-8') + "\t",
-            if idx == 2: print trpu.encode('utf-8')
+            if idx == 1: r += trpu.encode('utf-8')
+            if idx == 2: r = trpu.replace(".", "")[0:-3].encode('utf-8') + "\t" + r
+        print r
 except IOError, e:
     pass
 #    for a_ in a:
 #        print a_['href'] + "\t",
 #        print a_.string
 
-### SOME TOTALLY WEIRD SHIT WITH THESE LISTS
+### SOME TOTALLY WEIRD SHIT WITH THESE LISTS ... DUMB CODE!
 ### LIST HAD LENGTH 1 and a[0] or any other we tried returned index error??!?!?
 
 #    b = [ a ]#[0]#['href']               
