@@ -1,0 +1,15 @@
+#!/bin/bash
+
+awk -F"\t" 'BEGIN {OFS="\t"} 
+{  
+("./get-firm-group \"" $2 "\"") |& getline $4; 
+print
+system("sleep 0.3") ; 
+}'
+
+#if (CACHE[$4]) {
+#  $5 = CACHE[$4];
+#} else {
+#  ("./SKD-get-root-group \"" $4 "\"") |& getline $5;
+#  CACHE[$4] = $5;
+#}

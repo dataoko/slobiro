@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./search-orgs-raw $1 | ./parse-search-res

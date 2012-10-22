@@ -7,4 +7,4 @@ import sys
 data = json.load(sys.stdin)
 #data = data[0] # change this to find your string in the JSON
 for d in data:
-    sys.stdout.write(d['label'].encode('utf-8') + "\n")
+    sys.stdout.write(str(d['id']) + "\t" + d['label'].encode('utf-8') + "\n")

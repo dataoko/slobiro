@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -G --data-urlencode "term=$1" http://sunshine.owca.info/api/v1/json/search/institution/ 
