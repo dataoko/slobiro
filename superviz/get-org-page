@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl http://supervizor.kpk-rs.si/organ/$1/ | w3m -dump -T text/html

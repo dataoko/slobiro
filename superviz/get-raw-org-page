@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -s http://supervizor.kpk-rs.si/organ/$1/ 

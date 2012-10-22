@@ -1,5 +1,0 @@
-#!/bin/bash
-
-cd ../SKD
-./getgroupname "$1"
-cd .

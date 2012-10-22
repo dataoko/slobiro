@@ -1,3 +1,0 @@
-#!/bin/bash
-
-curl -s http://supervizor.kpk-rs.si$1 | w3m -dump -T text/html | grep "Dejavnost:" | perl -pe 's|(.*Dejavnost: )||'
