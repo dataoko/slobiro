@@ -1,8 +1,0 @@
-HTTP/1.1 200 OK
-Server: nginx/0.7.67
-Date: Mon, 22 Oct 2012 00:37:21 GMT
-Content-Type: text/html; charset=utf-8
-Transfer-Encoding: chunked
-Connection: keep-alive
-Vary: Accept-Encoding
-
