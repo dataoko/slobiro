@@ -89,7 +89,7 @@ Get organisation's url, load it, parse firms out of it, get groups of firms (w/ 
 
 Get amount sums of first 50 companies working with organisation ; and of construction companies amongst them (will take some time, has to make separate 50 requests (uses some delay)).
 
-	$ ./get-org-url "OBČINA POSTOJNA" | xargs ./load-page | ./parse-firms | ./get-firm-groups | ./get-firm-root-groups | tee temp1 | grep "GRADBENIŠTVO" | echo GRD: `./sum-all-amounts` ; cat temp1 | echo "VSI: " `./sum-all-amounts`
+	$ ./get-org-url "OBČINA POSTOJNA" | xargs ./load-page | ./parse-firms | ./get-firm-groups | ./get-firm-root-groups | tee temp1 | grep "GRADBENIŠTVO" | echo GRD: `./sum-all-amounts` ; cat temp1 | echo VSI: `./sum-all-amounts`
 	GRD: 19865083
 	VSI: 76777262
 
