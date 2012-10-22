@@ -8,7 +8,7 @@ Examples
 
 Search the orgranisations by name:
 
-       ./search-org "OBČINA SEV" | ./parse-serach-res
+	./search-org "OBČINA SEV" | ./parse-serach-res
 
 Find page of specific organisation and load the page, parse SKD-s, sum them and sort them top to bottom. This is based on new SKD-s supervizor functionality:
 
