@@ -21,11 +21,8 @@ for tr in trs:
         print a_.string
 
 ### SOME TOTALLY WEIRD SHIT WITH THESE LISTS
-### LIST HAD LENGTH 1 and a[0] or any other we tried returned index error??!?!?
+### LIST HAD LENGTH 1 and a[0] or any other i tried returned index error??!?!?
 
 #    b = [ a ]#[0]#['href']               
 ##
 #    print type( a[0]['href'] )
-
-#soup.find(text='Heading').findNext('ul').li
-# <li>The data you want</li>

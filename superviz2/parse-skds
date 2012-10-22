@@ -22,16 +22,8 @@ try:
         print r
 except IOError, e:
     pass
-#    for a_ in a:
-#        print a_['href'] + "\t",
-#        print a_.string
 
-### SOME TOTALLY WEIRD SHIT WITH THESE LISTS ... DUMB CODE!
-### LIST HAD LENGTH 1 and a[0] or any other we tried returned index error??!?!?
-
+# SOME TOTALLY WEIRD SHIT WITH THESE LISTS
+# LIST HAD LENGTH 1 and a[0] or any other we tried returned index error??!?!?
 #    b = [ a ]#[0]#['href']               
-##
 #    print type( a[0]['href'] )
-
-#soup.find(text='Heading').findNext('ul').li
-# <li>The data you want</li>
